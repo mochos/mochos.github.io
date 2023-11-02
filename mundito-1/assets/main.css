@@ -8,7 +8,7 @@ body{font-family:'Russo One',sans-serif!important;background:#eee;color:#525661}
 .masthead {
     height: 100vh;
     min-height: 500px;
-    background: linear-gradient(180deg,rgba(0,0,0,0.6978992280505952) 0%,rgba(0,0,0,0.7) 50%,rgba(0,0,0,0.7) 100%),url(../img/fondo-pix.jpg);
+    background: linear-gradient(180deg,rgba(0,0,0,0.6978992280505952) 0%,rgba(0,0,0,0.7) 50%,rgba(0,0,0,0.7) 100%),url(../img/fondo.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
