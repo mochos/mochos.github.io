@@ -68,9 +68,31 @@
         // Llama a la función para cargar las imágenes
         loadImages();
 
+        // Crea un ícono personalizado
+        var marcadorAzul = L.icon({
+            iconUrl: 'mapa-recursos/marcador-azul.png', // Reemplaza con la ruta de la nueva imagen del marcador
+            iconSize: [32, 32], // Ajusta el tamaño de la imagen del marcador
+            iconAnchor: [16, 16], // Ajusta el punto de anclaje del marcador
+            popupAnchor: [0, 0] // Ajusta el punto de anclaje del cuadro emergente
+        });
+        var marcadorAmarillo = L.icon({
+            iconUrl: 'mapa-recursos/marcador-amarillo.png', // Reemplaza con la ruta de la nueva imagen del marcador
+            iconSize: [32, 32], // Ajusta el tamaño de la imagen del marcador
+            iconAnchor: [16, 16], // Ajusta el punto de anclaje del marcador
+            popupAnchor: [0, 0] // Ajusta el punto de anclaje del cuadro emergente
+        });
+
         // Agrega marcadores u otras capas aquí si es necesario
-        L.marker([5.7, 0.6]).addTo(map)
+        L.marker([5.7, 0.6], { icon: marcadorAzul }).addTo(map)
             .bindPopup('Casita');
+        L.marker([0, 19.2], { icon: marcadorAmarillo }).addTo(map)
+            .bindPopup('Ancient');
+        L.marker([17.3, 18.7], { icon: marcadorAmarillo }).addTo(map)
+            .bindPopup('Champivacas');
+        L.marker([-11.6, 2.35], { icon: marcadorAmarillo }).addTo(map)
+            .bindPopup('Helado');
+        L.marker([3.85, -5], { icon: marcadorAmarillo }).addTo(map)
+            .bindPopup('Lush');
 
         // Agrega marcadores u otras capas aquí si es necesario
 
