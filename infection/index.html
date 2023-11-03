@@ -9,9 +9,7 @@
     <style>
         body {margin: 0;}
         #map {
-            height: 100vh; width: 100hw;
-            /*background-image: url('Overworld-web.png');
-            background-size: 100% 100%;*/
+            height: 100vh; width: 100vw;
         }
         img {image-rendering: pixelated;}
     </style>
@@ -23,9 +21,13 @@
     <script>
         var map = L.map('map', {
             crs: L.CRS.Simple,
-            minZoom: 4,                              //SE MODIFICARÁ AL ARREGLARLO
-            maxZoom: 12                              //SE MODIFICARÁ AL ARREGLARLO
+            minZoom: 4,
+            maxZoom: 12
         });
+
+        // Obtener el argumento de la URL
+        var urlParams = new URLSearchParams(window.location.search);
+        var showCoordinates = urlParams.get('coords');
 
         // Carpeta que contiene las imágenes
         var imagePath = 'https://raw.githubusercontent.com/lorspi/Infection/main/overworld/day/';
@@ -34,7 +36,7 @@
         var imageSize = 1;
 
         // Tamaño total de la matriz de imágenes
-        var matrixSize = 20; // 5x5 en este caso     //SE MODIFICARÁ AL ARREGLARLO
+        var matrixSize = 20;
 
         // Centrar el mapa en la imagen central
         var centerCoords = [0, 0];
@@ -70,21 +72,28 @@
 
         // Crea un ícono personalizado
         var marcadorAzul = L.icon({
-            iconUrl: 'mapa-recursos/marcador-azul.png', // Reemplaza con la ruta de la nueva imagen del marcador
-            iconSize: [32, 32], // Ajusta el tamaño de la imagen del marcador
-            iconAnchor: [16, 16], // Ajusta el punto de anclaje del marcador
-            popupAnchor: [0, 0] // Ajusta el punto de anclaje del cuadro emergente
+            iconUrl: 'mapa-recursos/marcador-azul.png',
+            iconSize: [32, 32],
+            iconAnchor: [16, 16],
+            popupAnchor: [0, 0]
         });
         var marcadorAmarillo = L.icon({
-            iconUrl: 'mapa-recursos/marcador-amarillo.png', // Reemplaza con la ruta de la nueva imagen del marcador
-            iconSize: [32, 32], // Ajusta el tamaño de la imagen del marcador
-            iconAnchor: [16, 16], // Ajusta el punto de anclaje del marcador
-            popupAnchor: [0, 0] // Ajusta el punto de anclaje del cuadro emergente
+            iconUrl: 'mapa-recursos/marcador-amarillo.png',
+            iconSize: [32, 32],
+            iconAnchor: [16, 16],
+            popupAnchor: [0, 0]
+        });
+        var marcadorMorado = L.icon({
+            iconUrl: 'mapa-recursos/marcador-morado.png',
+            iconSize: [32, 32],
+            iconAnchor: [16, 16],
+            popupAnchor: [0, 0]
         });
 
         // Agrega marcadores u otras capas aquí si es necesario
         L.marker([5.7, 0.6], { icon: marcadorAzul }).addTo(map)
             .bindPopup('Casita');
+        //---
         L.marker([0, 19.2], { icon: marcadorAmarillo }).addTo(map)
             .bindPopup('Ancient');
         L.marker([17.3, 18.7], { icon: marcadorAmarillo }).addTo(map)
@@ -93,15 +102,41 @@
             .bindPopup('Helado');
         L.marker([3.85, -5], { icon: marcadorAmarillo }).addTo(map)
             .bindPopup('Lush');
+        L.marker([-13.28, 2.79], { icon: marcadorAmarillo }).addTo(map)
+            .bindPopup('AldeaFría');
+        L.marker([-11.49, -6.96], { icon: marcadorAmarillo }).addTo(map)
+            .bindPopup('AldeaFría-2');
+        L.marker([20.21, 7.92], { icon: marcadorAmarillo }).addTo(map)
+            .bindPopup('Ancient-2');
+        L.marker([-2.04, 7.67], { icon: marcadorAmarillo }).addTo(map)
+            .bindPopup('Ancient-3');
+        L.marker([7.34, 2.90], { icon: marcadorAmarillo }).addTo(map)
+            .bindPopup('AldeanosDesierto');
+        //---
+        L.marker([20.45, -18.78], { icon: marcadorMorado }).addTo(map)
+            .bindPopup('Aldeanos');
+        L.marker([-9.54, 18.69], { icon: marcadorMorado }).addTo(map)
+            .bindPopup('Withers');
+        L.marker([-3.25, 8.11], { icon: marcadorMorado }).addTo(map)
+            .bindPopup('Arqueología');
 
-        // Agrega marcadores u otras capas aquí si es necesario
+
+        // Agrega un control de clic al mapa solo si se proporciona el argumento en la URL
+        if (showCoordinates === 'true') {
+            map.on('click', function(e) {
+                var coordinates = e.latlng;
+                L.popup()
+                    .setLatLng(coordinates)
+                    .setContent("Coordenadas: " + coordinates.lat.toFixed(2) + ", " + coordinates.lng.toFixed(2))
+                    .openOn(map);
+            });
+        }
 
         // Centra el mapa
         map.setView(coordenadaInicial, 8);
-
     </script>
     <script>
-    	document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function() {
             var images = document.getElementsByTagName('img');
 
             for (var i = 0; i < images.length; i++) {
@@ -113,15 +148,5 @@
         });
     </script>
     <script async data-id="101432442" src="//static.getclicky.com/js"></script>
-    
 </body>
 </html>
-
-<!--
- ../journeymap/data/mp/Infection/overworld/day/0,0.png 
-
-minZoom: -7,
-maxZoom: 0
-
-
--->
