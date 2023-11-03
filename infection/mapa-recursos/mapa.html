@@ -38,7 +38,6 @@
 
         // Centrar el mapa en la imagen central
         var centerCoords = [0, 0];
-        var coordenadaInicial = [5.7, 0.6];
 
         var imageUrl = imagePath + '0,0.png';
         var imageBounds = [centerCoords, [centerCoords[0] + imageSize, centerCoords[1] + imageSize]];
@@ -75,7 +74,7 @@
         // Agrega marcadores u otras capas aquí si es necesario
 
         // Centra el mapa
-        map.setView(coordenadaInicial, 8);
+        map.setView(centerCoords, 2);
 
     </script>
     <script>
@@ -90,7 +89,6 @@
             }
         });
     </script>
-    <script async data-id="101432442" src="//static.getclicky.com/js"></script>
     
 </body>
 </html>
