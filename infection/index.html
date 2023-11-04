@@ -25,9 +25,12 @@
             maxZoom: 12
         });
 
-        // Obtener el argumento de la URL
+        // Obtener los argumentos de la URL
         var urlParams = new URLSearchParams(window.location.search);
         var showCoordinates = urlParams.get('coords');
+        var x = parseFloat(urlParams.get('x')) || 5.7;  // Valor predeterminado si no se proporciona
+        var y = parseFloat(urlParams.get('y')) || 0.6;  // Valor predeterminado si no se proporciona
+        var z = parseInt(urlParams.get('z')) || 8;      // Valor predeterminado si no se proporciona
 
         // Carpeta que contiene las imágenes
         var imagePath = 'https://raw.githubusercontent.com/lorspi/Infection/main/overworld/day/';
@@ -38,9 +41,9 @@
         // Tamaño total de la matriz de imágenes
         var matrixSize = 20;
 
-        // Centrar el mapa en la imagen central
+        // Centrar el mapa en la posición proporcionada
         var centerCoords = [0, 0];
-        var coordenadaInicial = [5.7, 0.6];
+        var coordenadaInicial = [x, y];
 
         var imageUrl = imagePath + '0,0.png';
         var imageBounds = [centerCoords, [centerCoords[0] + imageSize, centerCoords[1] + imageSize]];
@@ -122,20 +125,24 @@
         L.marker([-8.07, -7.52], { icon: marcadorMorado }).addTo(map)
             .bindPopup('Base escondida');
 
-
         // Agrega un control de clic al mapa solo si se proporciona el argumento en la URL
         if (showCoordinates === 'true') {
             map.on('click', function(e) {
                 var coordinates = e.latlng;
+                var lat = coordinates.lat.toFixed(2);
+                var lng = coordinates.lng.toFixed(2);
+
+                // Crea un enlace que lleva a las coordenadas en la URL
+                var link = '<a href="?x=' + lat + '&y=' + lng + '&z=' + map.getZoom() + '">Ir a estas coordenadas</a>';
+
                 L.popup()
                     .setLatLng(coordinates)
-                    .setContent("Coordenadas: " + coordinates.lat.toFixed(2) + ", " + coordinates.lng.toFixed(2))
+                    .setContent("Coordenadas: " + lat + ", " + lng + "<br>" + link)
                     .openOn(map);
             });
         }
-
-        // Centra el mapa
-        map.setView(coordenadaInicial, 8);
+        // Centra el mapa y establece el nivel de zoom
+        map.setView(coordenadaInicial, z);
     </script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
