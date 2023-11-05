@@ -142,12 +142,15 @@
                 var lat = coordinates.lat.toFixed(2);
                 var lng = coordinates.lng.toFixed(2);
 
+                var latMC = parseInt(lat * 512 - 512)*-1;
+                var lngMC = parseInt(lng * 512);
+
                 // Crea un enlace que lleva a las coordenadas en la URL
                 var link = '<a href="?x=' + lat + '&y=' + lng + '&z=' + map.getZoom() + '">Ir a estas coordenadas</a>';
 
                 L.popup()
                     .setLatLng(coordinates)
-                    .setContent("Coordenadas: " + lat + ", " + lng + "<br>" + link)
+                    .setContent("<b>Coordenadas Web:</b> " + lat + ", " + lng + "<br>" + "<b>Coordenadas Minecraft:</b> x:" + lngMC + ", z:" + latMC + "<br>" + link)
                     .openOn(map);
             });
         }
