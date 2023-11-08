@@ -95,7 +95,7 @@
 
         // Agrega marcadores u otras capas aquí si es necesario
         L.marker([5.7, 0.6], { icon: marcadorAzul }).addTo(map)
-            .bindPopup('<b>Casita</b><br>x:302, z:-2406');
+            .bindPopup('<b>Casa barbie</b><br>x:302, z:-2406');
         //---
         L.marker([0, 19.2], { icon: marcadorAmarillo }).addTo(map)
             .bindPopup('<b>Ancient</b><br>x:9825, z:512');
@@ -144,6 +144,30 @@
             .bindPopup('<b>Isla honguito</b><br>x:-1576, z:-8519');
         L.marker([17.77, 0.74], { icon: marcadorMorado }).addTo(map)
             .bindPopup('<b>Domo</b><br>x:378, z:-8586');
+
+
+        // Coordenadas de un polígono de ejemplo
+        var tmochosCoords = [
+            [6.21, 0.09],
+            [6.21, 0.67],
+            [5.63, 0.67],
+            [5.63, 0.70],
+            [5.07, 0.70],
+            [5.07, 0.11],
+            [5.63, 0.11],
+            [5.63, 0.09]
+        ];
+
+        // Crea un marcador de área
+        var areaMarker = L.polygon(tmochosCoords, {
+            color: '#0392ce', // Color de borde del área
+            fillColor: '#0392ce', // Color de relleno del área
+            fillOpacity: 0.1, // Opacidad del relleno
+            weight: 1 // Cambia el valor de weight para controlar la opacidad del borde
+        }).addTo(map);
+
+        // Agrega una etiqueta al área
+        areaMarker.bindPopup('Hogar de Team Mochos');
 
         // Agrega un control de clic al mapa solo si se proporciona el argumento en la URL
         if (showCoordinates === 'true') {
