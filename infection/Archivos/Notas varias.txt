@@ -1,15 +1,4 @@
 
-Base escondida
-https://mochos.github.io/infection/?x=-8.07&y=-7.52&z=9
-
-Base cerezos
-https://mochos.github.io/infection/?x=2.02&y=-9.90&z=9
-
-Base submarina
-https://mochos.github.io/infection/?x=2.50&y=-5.72&z=9
-
-
-----------------
 
 
 Tamaño completo del mapa: 20480 (Radio: 10240)
