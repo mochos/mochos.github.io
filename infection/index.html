@@ -50,7 +50,6 @@
 
         L.imageOverlay(imageUrl, imageBounds).addTo(map);
 
-        // Función para cargar las imágenes y agregarlas al mapa
         function loadImages() {
             for (var i = -matrixSize; i <= matrixSize; i++) {
                 for (var j = -matrixSize; j <= matrixSize; j++) {
@@ -60,10 +59,15 @@
 
                     var imageX = centerCoords[0] + i * imageSize;
                     var imageY = centerCoords[1] + j * imageSize;
-                    var imageXinv = -imageX
+                    var imageXinv = -imageX;
 
                     var imageUrl = imagePath + imageY + ',' + imageXinv + '.png';
                     var imageBounds = [[imageX, imageY], [imageX + imageSize, imageY + imageSize]];
+
+                    // Crear la imagen con lazy loading
+                    var img = new Image();
+                    img.src = imageUrl;
+                    img.loading = 'lazy'; // Agregar lazy loading
 
                     L.imageOverlay(imageUrl, imageBounds).addTo(map);
                 }
