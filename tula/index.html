@@ -1,170 +1,114 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mapa del Overworld</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-    <link rel="shortcut icon" href="mapa-recursos/icon.png"/>
-    <style>
-        body {margin: 0;}
-        #map {
-            height: 100vh; width: 100vw;
-        }
-        img {image-rendering: pixelated;}
-    </style>
-</head>
-<body>
-    <div id="map"></div>
+<!-- saved from url=(0040)https://demo.develp.de/codester/mycraft/ -->
+<html lang="en" class="fontawesome-i2svg-active fontawesome-i2svg-complete"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="theme-color" content="#4CAF50">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<link rel="shortcut icon" href="img/icon.png"/>
+	<title>Estado del servidor</title>
+	<link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	
 
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-    <script>
-        var map = L.map('map', {
-            crs: L.CRS.Simple,
-            minZoom: 4,
-            maxZoom: 12
+	<!-- Bootstrap core CSS -->
+	<link href="assets/bootstrap.min.css" rel="stylesheet">
+	<!-- Template core CSS -->
+	<link href="assets/main.css" rel="stylesheet">
+	<link href="assets/css" rel="stylesheet"> 
+	<script defer="" src="assets/all.js.descarga"></script>
+	<script src="assets/cookieconsent.min.js.descarga" data-cfasync="false"></script>
+
+
+	</head>
+	<body>
+
+	<!-- Header Section -->
+	<header class="masthead" id="cabecera">
+		<div class="container h-100">
+			<div class="row h-100 align-items-center">
+				<div class="col-12 text-center">
+					<div class="container" style="max-width:350px;">
+					<div class="alert text-center text-uppercase" role="alert" id="btnestado">
+						<h4 class="alert-heading pulse animated"><span id="jugadores"></span><small id="estado">Cargando estado...</small></h4>
+					</div>
+					</div>
+					<small id="lista"></small>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- /.header -->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="assets/bootstrap.bundle.min.js.descarga"></script>
+	<script>
+	$(window).scroll(function(){
+	$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+	});
+	</script>
+	<script>
+	function toasty() {
+	var x = document.getElementById("global-notification");
+	x.className = "show";
+	setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+	}
+	</script>
+	<script>
+	document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
         });
+    });
+});
 
-        // Obtener los argumentos de la URL
-        var urlParams = new URLSearchParams(window.location.search);
-        var showCoordinates = urlParams.get('coords');
-        var x = parseFloat(urlParams.get('x')) || 0.93;  // Valor predeterminado si no se proporciona
-        var y = parseFloat(urlParams.get('y')) || 0.01;  // Valor predeterminado si no se proporciona
-        var z = parseInt(urlParams.get('z')) || 8;      // Valor predeterminado si no se proporciona
+	</script>
+	<script>
+		var url = "https://api.mcsrvstat.us/3/horizongames.es";
 
-        // Carpeta que contiene las imágenes
-        var imagePath = 'https://raw.githubusercontent.com/mochos/mochos.github.io/main/tula/mapa/';
-
-        // Dimensiones de cada imagen
-        var imageSize = 1;
-
-        // Tamaño total de la matriz de imágenes
-        var matrixSize = 20;
-
-        // Centrar el mapa en la posición proporcionada
-        var centerCoords = [0, 0];
-        var coordenadaInicial = [x, y];
-
-        var imageUrl = imagePath + '0,0.png';
-        var imageBounds = [centerCoords, [centerCoords[0] + imageSize, centerCoords[1] + imageSize]];
-
-        L.imageOverlay(imageUrl, imageBounds).addTo(map);
-
-        function loadImages() {
-            for (var i = -matrixSize; i <= matrixSize; i++) {
-                for (var j = -matrixSize; j <= matrixSize; j++) {
-                    if (i === 0 && j === 0) {
-                        continue; // Saltar la imagen central
-                    }
-
-                    var imageX = centerCoords[0] + i * imageSize;
-                    var imageY = centerCoords[1] + j * imageSize;
-                    var imageXinv = -imageX;
-
-                    var imageUrl = imagePath + imageY + ',' + imageXinv + '.png';
-                    var imageBounds = [[imageX, imageY], [imageX + imageSize, imageY + imageSize]];
-
-                    // Crear la imagen con lazy loading
-                    var img = new Image();
-                    img.src = imageUrl;
-                    img.loading = 'lazy'; // Agregar lazy loading
-
-                    L.imageOverlay(imageUrl, imageBounds).addTo(map);
-                }
-            }
-        }
-
-        // Llama a la función para cargar las imágenes
-        loadImages();
-
-        // Crea un ícono personalizado
-        var marcadorAzul = L.icon({
-            iconUrl: 'mapa-recursos/marcador-azul.png',
-            iconSize: [32, 32],
-            iconAnchor: [16, 16],
-            popupAnchor: [0, 0]
-        });
-        var marcadorAmarillo = L.icon({
-            iconUrl: 'mapa-recursos/marcador-amarillo.png',
-            iconSize: [32, 32],
-            iconAnchor: [16, 16],
-            popupAnchor: [0, 0]
-        });
-        var marcadorMorado = L.icon({
-            iconUrl: 'mapa-recursos/marcador-morado.png',
-            iconSize: [32, 32],
-            iconAnchor: [16, 16],
-            popupAnchor: [0, 0]
-        });
-
-        // Agrega marcadores u otras capas aquí si es necesario
-        /*L.marker([5.7, 0.6], { icon: marcadorAzul }).addTo(map)
-            .bindPopup('<b>Casa barbie</b><br>x:302, z:-2406');*/
-        //---
-        /*L.marker([0, 19.2], { icon: marcadorAmarillo }).addTo(map)
-            .bindPopup('<b>Ancient</b><br>x:9825, z:512');*/
-        
-        //---
-        L.marker([0.93, 0.01], { icon: marcadorMorado }).addTo(map)
-            .bindPopup('<b>Spawn</b><br>x:7, z:36');
-
-        // Coordenadas de un polígono
-        /*var tmochosCoords = [
-            [6.21, 0.09],
-            [6.21, 0.67],
-            [5.63, 0.67],
-            [5.63, 0.70],
-            [5.07, 0.70],
-            [5.07, 0.11],
-            [5.63, 0.11],
-            [5.63, 0.09]
-        ];*/
-
-        // Crea un marcador de área
-        /*var areaMarker = L.polygon(tmochosCoords, {
-            color: '#0392ce', // Color de borde del área
-            fillColor: '#0392ce', // Color de relleno del área
-            fillOpacity: 0.1, // Opacidad del relleno
-            weight: 1 // Cambia el valor de weight para controlar la opacidad del borde
-        }).addTo(map);
-
-        // Agrega una etiqueta al área
-        areaMarker.bindPopup('Hogar de Team Mochos');*/
-
-        // Agrega un control de clic al mapa solo si se proporciona el argumento en la URL
-        if (showCoordinates === 'true') {
-            map.on('click', function(e) {
-                var coordinates = e.latlng;
-                var lat = coordinates.lat.toFixed(2);
-                var lng = coordinates.lng.toFixed(2);
-
-                var latMC = parseInt(lat * 512 - 512)*-1;
-                var lngMC = parseInt(lng * 512);
-
-                // Crea un enlace que lleva a las coordenadas en la URL
-                var link = '<a href="?x=' + lat + '&y=' + lng + '&z=' + map.getZoom() + '">Ir a estas coordenadas</a>';
-
-                L.popup()
-                    .setLatLng(coordinates)
-                    .setContent("<b>Coordenadas Web:</b> " + lat + ", " + lng + "<br>" + "<b>Coordenadas Minecraft:</b> x:" + lngMC + ", z:" + latMC + "<br>" + link)
-                    .openOn(map);
-            });
-        }
-        // Centra el mapa y establece el nivel de zoom
-        map.setView(coordenadaInicial, z);
-    </script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var images = document.getElementsByTagName('img');
-
-            for (var i = 0; i < images.length; i++) {
-                images[i].addEventListener('error', function() {
-                    // Aplica estilos a las imágenes que no se han cargado
-                    this.style.opacity = '0';
-                });
-            }
-        });
-    </script>
-    <script async data-id="101432442" src="//static.getclicky.com/js"></script>
-</body>
-</html>
+		$.getJSON(url, function(r) {
+		    //data is the JSON string
+		if(r.online == false){
+		    $('#estado').html('Desconectado');
+		    $('#jugadores').css("display","none");
+		    $('#btnestado').addClass( "alert-danger" );
+		   return false;
+		 } else {
+		 	var cantidad = r.players.online;
+			var es = 'es';
+			var os = 's';
+			if (r.players.online == 1){
+				var es = '';
+				var os = '';
+			}
+			if (r.icon == null ) {
+				$('#estado').html('Desconectado');
+			    $('#jugadores').css("display","none");
+			    $('#btnestado').addClass( "alert-danger" );
+		   	return false;
+			} else {
+				$('#estado').html('Jugador'+es+' conectado'+os);
+				$('#jugadores').html(r.players.online+'<br>');
+				$('#btnestado').addClass( "alert-success" );
+				$('#btnestado').addClass( "button-glow" );
+				// Construimos la lista de nombres de los jugadores
+	            var nombres = '';
+	            if (r.players.list && Array.isArray(r.players.list)) {
+	                r.players.list.forEach(function(jugador) {
+	                    nombres += jugador.name + '<br>';
+	                });
+	            }
+	            $('#lista').html(nombres);
+	            return false;
+			}
+		}
+	});
+	</script>
+	
+	
+</body></html>
