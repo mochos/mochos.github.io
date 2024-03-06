@@ -42,8 +42,9 @@
         var z = parseInt(urlParams.get('z')) || 8;      // Valor predeterminado si no se proporciona
 
         // Carpeta que contiene las imágenes
-        var imagePath = 'https://raw.githubusercontent.com/mochos/mochos.github.io/main/tula/mapa/mapa/';
-
+        var imagePathPrimary = 'https://raw.githubusercontent.com/mochos/mochos.github.io/main/tula/mapa/mapa/';
+        var imagePathSecondary = 'https://raw.githubusercontent.com/mochos/mochos.github.io/main/tula/mapa/mapa-explorado/'
+;
         // Dimensiones de cada imagen
         var imageSize = 1;
 
@@ -53,6 +54,9 @@
         // Centrar el mapa en la posición proporcionada
         var centerCoords = [0, 0];
         var coordenadaInicial = [x, y];
+
+        // Determinar la ruta de la imagen dependiendo del parámetro explorado
+        var imagePath = (urlParams.get('explorado') === 'true') ? imagePathSecondary : imagePathPrimary;
 
         var imageUrl = imagePath + '0,0.png';
         var imageBounds = [centerCoords, [centerCoords[0] + imageSize, centerCoords[1] + imageSize]];
@@ -107,8 +111,8 @@
         });
 
         // Agrega marcadores u otras capas aquí si es necesario
-        L.marker([-1.00, 2.10], { icon: marcadorAzul }).addTo(map)
-            .bindPopup('<b>Casa temporal de lorspi</b><br>x:1075, z:1024');
+        L.marker([-0.54, 1.58], { icon: marcadorAzul }).addTo(map)
+            .bindPopup('<b>Casa de TeamMochos</b><br>x:808, z:788');
         //---
         /*L.marker([0, 19.2], { icon: marcadorAmarillo }).addTo(map)
             .bindPopup('<b>Ancient</b><br>x:9825, z:512');*/
@@ -119,10 +123,13 @@
 
         // Coordenadas de un polígono
         var tmochosCoords = [
-            [-1.02, 2.17],
-            [ -0.81, 2.17],
-            [-0.81, 2.35],
-            [-1.02, 2.35]
+            [-0.23, 1.79],
+            [-0.32, 1.93],
+            [-0.72, 1.86],
+            [-0.77, 1.43],
+            [-0.69, 1.29],
+            [-0.33, 1.32],
+            [-0.24, 1.60]
         ];
 
         // Crea un marcador de área
@@ -134,7 +141,7 @@
         }).addTo(map);
 
         // Agrega una etiqueta al área
-        areaMarker.bindPopup('Hogar de Team Mochos');
+        areaMarker.bindPopup('Bahía Málaga');
 
         // Agrega un control de clic al mapa solo si se proporciona el argumento en la URL
         if (showCoordinates === 'true') {
