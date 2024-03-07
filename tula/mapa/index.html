@@ -111,18 +111,18 @@
         });
 
         // Agrega marcadores u otras capas aquí si es necesario
-        L.marker([-0.54, 1.58], { icon: marcadorAzul }).addTo(map)
-            .bindPopup('<b>Casa de TeamMochos</b><br>x:808, z:788');
+        L.marker([-0.54, 1.53], { icon: marcadorAzul }).addTo(map)
+            .bindPopup('<b>TeamMochos</b><br>x:783, z:788');
         //---
         /*L.marker([0, 19.2], { icon: marcadorAmarillo }).addTo(map)
             .bindPopup('<b>Ancient</b><br>x:9825, z:512');*/
         
         //---
-        L.marker([0.93, 0.01], { icon: marcadorMorado }).addTo(map)
-            .bindPopup('<b>Spawn</b><br>x:7, z:36');
+        L.marker([0.77, -0.09], { icon: marcadorMorado }).addTo(map)
+            .bindPopup('<b>Plaza</b><br>x:-46, z:117');
 
         // Coordenadas de un polígono
-        var tmochosCoords = [
+        var bahiaMalagaCoords = [
             [-0.23, 1.79],
             [-0.32, 1.93],
             [-0.72, 1.86],
@@ -133,7 +133,7 @@
         ];
 
         // Crea un marcador de área
-        var areaMarker = L.polygon(tmochosCoords, {
+        var bahiaMalagaMarker = L.polygon(bahiaMalagaCoords, {
             color: '#0392ce', // Color de borde del área
             fillColor: '#0392ce', // Color de relleno del área
             fillOpacity: 0.1, // Opacidad del relleno
@@ -141,7 +141,7 @@
         }).addTo(map);
 
         // Agrega una etiqueta al área
-        areaMarker.bindPopup('Bahía Málaga');
+        bahiaMalagaMarker.bindPopup('Bahía Málaga');
 
         // Agrega un control de clic al mapa solo si se proporciona el argumento en la URL
         if (showCoordinates === 'true') {
