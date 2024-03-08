@@ -1,0 +1,22 @@
+
+
+
+Tamaño completo del mapa: 20480 (Radio: 10240)
+
+Casita
+x:267 z:-2398]
+
+Frondosa
+x:-2581, z:-1501
+
+Withers
+x:9550 z:5405
+
+Templo
+x:8960 z:-7985
+
+
+----------------
+
+
+<b>_____</b><br>_____
