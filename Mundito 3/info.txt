@@ -1,0 +1,69 @@
+Semilla: 4189766944005904899
+
+SPECS Y TAREAS
+	- Servidor survival casual sin lore.
+	- Compatible con java 1.20.1 y bedrock ultimas versiones
+	- Estado del servidor y mapa (mochos.xyz/mundito --- mochos.xyz/mundito/mapa)
+	- Chat de voz para java (Tengo entendido que es crossplay el mod y plugin)
+	- Invitados: Team Mochos, Dankest Dungeons, ¿Tula?, ¿Gente de petit? (snowi, kaiser, etc)
+	- IP bonita y que sirva para ambas plataformas: mundito.mochos.xyz
+
+PLUGINS:
+	
+	Lootr (parecido)
+	https://www.spigotmc.org/resources/lootin-1-16-1-20-no-more-already-looted-chests.90453/
+	[LISTO]
+
+	Cortar árboles
+	https://www.spigotmc.org/resources/treecapitator.103172/
+	[LISTO]
+
+	Tumbas
+	https://www.spigotmc.org/resources/tombs.6085/
+	[LISTO]
+
+	Seguridad login
+	https://www.spigotmc.org/resources/loginsecurity.19362/
+	[LISTO]
+
+	Mochilas
+	https://www.spigotmc.org/resources/minepacks-backpack-plugin-mc-1-7-1-20.19286/
+	[LISTO]
+
+	Guardar XP
+	https://www.spigotmc.org/resources/bottledexp.2815/
+	https://www.spigotmc.org/resources/cmilib.87610/
+	[LISTO]
+
+	Protecciones
+	https://www.spigotmc.org/resources/protectionstones-updated-for-1-17.61797/
+	[Perri: pls configura las mismas protes. Esta vez con bloques de minerales: Carbón, hierro, oro, diamante. Comandos que teníamos en el infection (No se si este pl tenga)]
+
+	Bloqueo de cofres
+	https://www.spigotmc.org/resources/lockettex-optimized-simple-chest-protection-plugin.73184/
+	[POR PROBAR]
+
+	Luckperms
+	https://www.spigotmc.org/resources/luckperms.28140/
+	[Perri: pls configura :3]
+
+	Warps, homes, tpa
+	https://www.spigotmc.org/resources/essentialsx.9089/
+	[Perri: pls configura. comandos tpa para todos, 5 homes, warps]
+
+	WorldEdit
+	https://dev.bukkit.org/projects/worldedit
+
+	WorldGuard
+	https://dev.bukkit.org/projects/worldguard
+
+	Una persona duerme para amanecer
+	https://www.spigotmc.org/resources/one-player-sleep.31585/
+
+	Revivir:
+	https://www.spigotmc.org/resources/revive-plugin.105340/
+
+	Pendientes:
+	[Generación de estructuras]
+	[Shopkeepers]
+	[¿Dynmap en vez de mapa de journey?]
