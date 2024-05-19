@@ -16,7 +16,7 @@ BackpackTitleOther: "&bMochila de {OwnerName}"
 BackpackTitle: "&bMochila"
 # Defines if the content of the backpack get dropped on the death of a player.
 # If enabled, it can be disabled for individual players with the "backpack.keepOnDeath" permission.
-DropOnDeath: true
+DropOnDeath: false
 # If this option is enabled the backpack will not drop if the keepInventory flag for the death event is set.
 # This should add compatibility with plugins protecting the players inventory on death (like SaveRod). But might prevent the backpack form dropping on death with some plugins.
 HonorKeepInventoryOnDeath: false
@@ -178,7 +178,7 @@ ItemShortcut:
   # The item may not be removed from their inventory as long as this option is enabled.
   Enabled: true
   # The name of the item in the inventory
-  ItemName: "&eBackpack"
+  ItemName: "&eMochila"
   # The texture value for the head.
   # Heads can be found here: https://minecraft-heads.com/custom-heads/
   # The correct value is the one listed on the head page under Other/Value
@@ -187,7 +187,7 @@ ItemShortcut:
   # Please note: This will not move items from the backpack to the death chest! The items in the backpack will still drop to the ground unless DropOnDeath is disabled.
   ImproveDeathChestCompatibility: false
   # Prevents the backpack from being used as a hat
-  BlockAsHat: false
+  BlockAsHat: true
   # Opens a container if right-clicked while holding the backpack shortcut in the hand. This option will only work on MC 1.13 or newer.
   OpenContainerOnRightClick: false
   # The id of the slot that should be preferred when giving a player the shortcut item

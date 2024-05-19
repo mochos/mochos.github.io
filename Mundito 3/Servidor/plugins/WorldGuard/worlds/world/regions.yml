@@ -9,17 +9,4 @@
 #
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
-regions:
-    ps1x76y0z:
-        min: {x: -63, y: -32768, z: -64}
-        max: {x: 65, y: 32767, z: 64}
-        members: {}
-        flags: {wither-damage: deny, greeting: Hola, greeting-group: ALL, pvp: deny,
-            ps-home: 2.0 77.0 3.0 -17.09999 18.450087, ps-tax-autopayer: 6b935d9e-c2fe-3085-a6fa-227d8624c201,
-            ps-block-material: EMERALD_ORE, mob-spawning: deny, ps-name: hola, creeper-explosion: deny,
-            farewell-action: Bai, greeting-action: Hola, greeting-title: Hola, tnt: deny,
-            farewell-title: Adios, ghast-fireball: deny, farewell: Adios}
-        owners:
-            unique-ids: [6b935d9e-c2fe-3085-a6fa-227d8624c201]
-        type: cuboid
-        priority: 0
+regions: {}

@@ -1,9 +1,0 @@
-#Author GhostHacks96
-#Remove The Tombs Automaticly?
-tombRemove: false
-#How Long Before We Remove The Tombs (in seconds)
-removeTime: 18000
-#Lockett Installed?
-tombSign: true
-#Send Messages To Players?
-playerMessage: true

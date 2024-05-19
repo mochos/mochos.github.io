@@ -19,7 +19,7 @@ PLUGINS:
 	[LISTO]
 
 	Tumbas
-	https://www.spigotmc.org/resources/tombs.6085/
+	https://www.spigotmc.org/resources/graves.74208/
 	[LISTO]
 
 	Seguridad login
@@ -30,22 +30,36 @@ PLUGINS:
 	https://www.spigotmc.org/resources/minepacks-backpack-plugin-mc-1-7-1-20.19286/
 	[LISTO]
 
+	Revivir:
+	https://www.spigotmc.org/resources/revive-plugin.105340/
+	[LISTO]
+
 	Guardar XP
 	https://www.spigotmc.org/resources/bottledexp.2815/
 	https://www.spigotmc.org/resources/cmilib.87610/
 	[LISTO]
 
-	Protecciones
-	https://www.spigotmc.org/resources/protectionstones-updated-for-1-17.61797/
-	[Perri: pls configura las mismas protes. Esta vez con bloques de minerales: Carbón, hierro, oro, diamante. Comandos que teníamos en el infection (No se si este pl tenga)]
-
 	Bloqueo de cofres
 	https://www.spigotmc.org/resources/lockettex-optimized-simple-chest-protection-plugin.73184/
-	[POR PROBAR]
+	[LISTO]
 
 	Luckperms
 	https://www.spigotmc.org/resources/luckperms.28140/
-	[Perri: pls configura :3]
+	[LISTO]
+
+	Una persona duerme para amanecer
+	https://www.spigotmc.org/resources/one-player-sleep.31585/
+	[LISTO]
+
+	Generación de estructuras
+	https://www.spigotmc.org/resources/betterstructures.103241/
+	[LISTO]
+
+
+	Protecciones
+	https://www.spigotmc.org/resources/protectionstones-updated-for-1-17.61797/
+	https://www.spigotmc.org/resources/placeholderapi.6245/
+	[Perri: pls configura las mismas protes. Esta vez con menas de minerales: Carbón, hierro, oro, diamante. Comandos que teníamos en el infection (No se si este pl tenga)]
 
 	Warps, homes, tpa
 	https://www.spigotmc.org/resources/essentialsx.9089/
@@ -57,13 +71,13 @@ PLUGINS:
 	WorldGuard
 	https://dev.bukkit.org/projects/worldguard
 
-	Una persona duerme para amanecer
-	https://www.spigotmc.org/resources/one-player-sleep.31585/
+	Elevadores
+	https://www.spigotmc.org/resources/simple-elevators-1-8-1-20.44462/
+	[Por probar]
 
-	Revivir:
-	https://www.spigotmc.org/resources/revive-plugin.105340/
 
 	Pendientes:
-	[Generación de estructuras]
+	[Armored elytra]
+	[Clear lag?]
 	[Shopkeepers]
 	[¿Dynmap en vez de mapa de journey?]
