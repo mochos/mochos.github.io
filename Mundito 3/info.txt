@@ -55,29 +55,38 @@ PLUGINS:
 	https://www.spigotmc.org/resources/betterstructures.103241/
 	[LISTO]
 
+	Elevadores
+	https://www.spigotmc.org/resources/simple-elevators-1-8-1-20.44462/
+	[LISTO]
+
+	Warps, homes, tpa
+	https://www.spigotmc.org/resources/essentialsx.9089/
+	[LISTO]
+
+	WorldEdit
+	https://dev.bukkit.org/projects/worldedit
+	[LISTO]
+
+	WorldGuard
+	https://dev.bukkit.org/projects/worldguard
+	[LISTO]
+
+	----
 
 	Protecciones
 	https://www.spigotmc.org/resources/protectionstones-updated-for-1-17.61797/
 	https://www.spigotmc.org/resources/placeholderapi.6245/
 	[Perri: pls configura las mismas protes. Esta vez con menas de minerales: Carbón, hierro, oro, diamante. Comandos que teníamos en el infection (No se si este pl tenga)]
 
-	Warps, homes, tpa
-	https://www.spigotmc.org/resources/essentialsx.9089/
-	[Perri: pls configura. comandos tpa para todos, 5 homes, warps]
+	----
 
-	WorldEdit
-	https://dev.bukkit.org/projects/worldedit
-
-	WorldGuard
-	https://dev.bukkit.org/projects/worldguard
-
-	Elevadores
-	https://www.spigotmc.org/resources/simple-elevators-1-8-1-20.44462/
+	Shopkeepers
+	https://www.spigotmc.org/resources/shopkeepers.80756/
 	[Por probar]
 
 
 	Pendientes:
-	[Armored elytra]
+	[Vault] (No encuentro para 1.20)
+	[Armored elytra] (No encontré compatible con bedrock)
 	[Clear lag?]
-	[Shopkeepers]
 	[¿Dynmap en vez de mapa de journey?]
