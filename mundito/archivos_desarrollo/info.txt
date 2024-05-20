@@ -83,11 +83,27 @@ PLUGINS:
 	https://www.spigotmc.org/resources/clearlagg.68271/
 	[LISTO]
 
+	Capturar mobs
+	https://modrinth.com/plugin/mobstoeggs
+	[LISTO]
+
+	Vault (No encuentro para 1.20)
+	https://www.spigotmc.org/resources/vault.34315/
+	[LISTO]
+
+
+	----
+
+	Chat
+	https://www.spigotmc.org/resources/lpc-chat-formatter-1-7-10-1-20.68965/
+	[Por configurar]
+
+
 	----
 	
 
 	Pendientes:
-	[Vault] (No encuentro para 1.20)
+
 	[Armored elytra] (No encontré compatible con bedrock)
 	[¿Dynmap en vez de mapa de journey?]
 
