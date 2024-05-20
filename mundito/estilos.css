@@ -2,7 +2,25 @@ body {
   background: url(img/fondo.jpg);
   background-size: cover;
   background-attachment: fixed;
+  font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
 }
+
+* {
+  align-content: center;
+  text-align: center;
+}
+
+.enlace {
+  cursor: pointer;
+  color: #52a535;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.enlace:hover {
+  text-decoration: underline;
+}
+
 .contenedor {
     display: flex;
     flex-direction: column;
@@ -72,6 +90,8 @@ body {
   padding: 24px 32px;
   margin: 0px auto;
   max-width: 70%;
+  opacity: 0.8;
+  color: #ffffff;
     }
 h2 {
   font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
@@ -83,7 +103,7 @@ h2 {
   color: rgb(237, 229, 226);
   margin: 0px 0px 4px;
   text-transform: none;
-  display: flex;
+  /*display: flex;*/
 }
 h2 span {font-weight: 300 !important;}
 p {
@@ -111,3 +131,33 @@ p {
   }
   .boton {max-width: -webkit-fill-available;}
 }
+
+/*----------------*/
+
+.read-more-state {
+  display: none;
+}
+.read-more-target {
+  display: none;
+  font-size: 0;
+  transition: .25s ease;
+  max-width: 512px;
+
+}
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  display: inline-block;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Mostrar más';
+}
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Mostrar menos';
+}
+.read-more-trigger {
+  display: inline-block;
+  padding-top: 16px;
+}
+
