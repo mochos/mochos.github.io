@@ -3,6 +3,14 @@ body {
   background-size: cover;
   background-attachment: fixed;
   font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#header, #footer, #sidebar {
+  display: none;
 }
 
 * {
@@ -160,4 +168,3 @@ p {
   display: inline-block;
   padding-top: 16px;
 }
-
