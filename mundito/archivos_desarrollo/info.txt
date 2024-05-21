@@ -96,7 +96,7 @@ PLUGINS:
 	[LISTO]
 
 	Mapa Web
-	https://www.spigotmc.org/resources/bluemap.83557/
+	https://www.spigotmc.org/resources/dynmap%C2%AE.274/
 	[LISTO]
 
 	----
@@ -105,9 +105,8 @@ PLUGINS:
 	----
 
 	Pendientes:
-
+	[Jobs] ?
 	[Armored elytra] (No encontré compatible con bedrock)
-	[Mapa web] ¿Dynmap, bluemap? https://bluecolored.de/bluemap/#overworld:-807:0:417:667:0.36:0.67:0:0:perspective
 
 	----
 
@@ -116,3 +115,7 @@ PLUGINS:
 	https://www.spigotmc.org/resources/protectionstones-updated-for-1-17.61797/
 	https://www.spigotmc.org/resources/placeholderapi.6245/
 	[Perri: pls configura las mismas protes. Esta vez con menas de minerales: Carbón, hierro, oro, diamante. Comandos que teníamos en el infection (No se si este pl tenga)]
+
+	Mapa web
+	https://www.spigotmc.org/resources/bluemap.83557/
+	Ejemplo: https://bluecolored.de/bluemap/#overworld:-807:0:417:667:0.36:0.67:0:0:perspective
