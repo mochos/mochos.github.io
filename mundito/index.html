@@ -62,45 +62,51 @@ $('.clipboard').on('click', function() {
 </script>
 
 <script>
+    function checkServerStatus() {
         var url = "https://api.mcsrvstat.us/3/opseeker.minecra.fr";
 
         $.getJSON(url, function(r) {
-            //data is the JSON string
-        if(r.online == false){
-            $('#estado').html('⛔ Desconectado');
-            $('#jugadores').css("display","none");
-            $('#btnestado').addClass( "alert-danger" );
-           return false;
-         } else {
-            var cantidad = r.players.online;
-            var es = 'es';
-            var os = 's';
-            if (r.players.online == 1){
-                var es = '';
-                var os = '';
-            }
-            if (r.icon == null ) {
-                $('#estado').text('⛔ Desconectado');
+            if (r.online == false) {
+                $('#estado').html('⛔ Desconectado');
                 $('#jugadores').css("display","none");
-                $('#btnestado').addClass( "alert-danger" );
-            return false;
+                $('#btnestado').addClass("alert-danger");
             } else {
-                $('#estado').text('jugador'+es+' conectado'+os);
-                $('#jugadores').html('🟢'+r.players.online+'&nbsp;');
-                $('#btnestado').addClass( "alert-success" );
-                $('#btnestado').addClass( "button-glow" );
-                // Construimos la lista de nombres de los jugadores
-                var nombres = '';
-                if (r.players.list && Array.isArray(r.players.list)) {
-                    r.players.list.forEach(function(jugador) {
-                        nombres += jugador.name + ', ';
-                    });
+                var cantidad = r.players.online;
+                var es = 'es';
+                var os = 's';
+                if (r.players.online == 1) {
+                    es = '';
+                    os = '';
                 }
-                $('#lista').html(nombres);
-                return false;
+                if (r.icon == null) {
+                    $('#estado').text('⛔ Desconectado');
+                    $('#jugadores').css("display","none");
+                    $('#btnestado').addClass("alert-danger");
+                } else {
+                    $('#estado').text('jugador' + es + ' conectado' + os);
+                    $('#jugadores').html('🟢' + r.players.online + '&nbsp;');
+                    $('#btnestado').addClass("alert-success");
+                    $('#btnestado').addClass("button-glow");
+
+                    // Construimos la lista de nombres de los jugadores
+                    var nombres = '';
+                    if (r.players.list && Array.isArray(r.players.list)) {
+                        r.players.list.forEach(function(jugador) {
+                            nombres += jugador.name + ', ';
+                        });
+                        // Elimina la última coma y espacio
+                        nombres = nombres.slice(0, -2);
+                    }
+                    $('#lista').html(nombres);
+                }
             }
-        }
-    });
-    </script>
+        });
+    }
+
+    // Ejecutar la función una vez al inicio
+    checkServerStatus();
+    // Ejecutar la función cada 30 segundos
+    setInterval(checkServerStatus, 30000);
+</script>
 </body>
 </html>
