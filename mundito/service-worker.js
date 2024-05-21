@@ -17,7 +17,19 @@ self.addEventListener('activate', function(event) {
     cache.addAll([
       '/',
       '/index.html',
-      '/estilos.css'
+      '/estilos.css',
+      '/img/fondo.jpg',
+      '/img/Mundito-logo-300.png',
+      '/img/icono.png',
+      '/img/iconos/icono-72x72.png',
+      '/img/iconos/icono-96x96.png',
+      '/img/iconos/icono-128x128.png',
+      '/img/iconos/icono-144x144.png',
+      '/img/iconos/icono-152x152.png',
+      '/img/iconos/icono-192x192.png',
+      '/img/iconos/icono-384x384.png',
+      '/img/iconos/icono-512x512.png',
+      '/img/iconos/icono-72x72.png'
     ]);
   });
 });

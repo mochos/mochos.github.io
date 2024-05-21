@@ -6,7 +6,6 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
 #header, #footer, #sidebar {
@@ -96,7 +95,7 @@ body {
   background-color: rgb(23, 22, 21);
   align-items: center;
   padding: 24px 32px;
-  margin: 0px auto;
+  margin: 32px auto;
   max-width: 70%;
   opacity: 0.8;
   color: #ffffff;
