@@ -91,21 +91,23 @@ PLUGINS:
 	https://www.spigotmc.org/resources/vault.34315/
 	[LISTO]
 
-
-	----
-
 	Chat
 	https://www.spigotmc.org/resources/lpc-chat-formatter-1-7-10-1-20.68965/
-	[Por configurar]
+	[LISTO]
 
+	Mapa Web
+	https://www.spigotmc.org/resources/bluemap.83557/
+	[LISTO]
 
 	----
-	
+
+ 
+	----
 
 	Pendientes:
 
 	[Armored elytra] (No encontré compatible con bedrock)
-	[¿Dynmap en vez de mapa de journey?]
+	[Mapa web] ¿Dynmap, bluemap? https://bluecolored.de/bluemap/#overworld:-807:0:417:667:0.36:0.67:0:0:perspective
 
 	----
 
