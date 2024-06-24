@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verificación de JSON y Notificaciones</title>
+<script>
+  // Función para verificar el JSON y mostrar notificaciones
+  function verificarJSONyNotificar() {
+    fetch('https://api.mcsrvstat.us/3/31.214.161.15:25756') // Cambia 'tu_archivo_json.json' con la URL de tu JSON
+      .then(response => response.json())
+      .then(data => {
+        // Verifica si la propiedad 'players' está presente en el JSON
+        if (data.hasOwnProperty('players')) {
+          const players = data.players;
+          // Verifica si la propiedad 'list' está presente en 'players'
+          if (players.hasOwnProperty('list')) {
+            const list = players.list;
+            // Itera sobre los elementos de la lista y muestra notificaciones
+            list.forEach(item => {
+              const name = item.name;
+              // Muestra la notificación
+              mostrarNotificacion(name);
+            });
+          } else {
+            console.error('El objeto "players" no contiene una propiedad "list"');
+          }
+        } else {
+          console.error('El JSON no contiene una propiedad "players"');
+        }
+      })
+      .catch(error => {
+        console.error('Error al obtener el JSON:', error);
+      });
+  }
+
+  // Función para mostrar notificaciones
+  function mostrarNotificacion(name) {
+    // Comprueba si el navegador admite notificaciones
+    if ('Notification' in window) {
+      Notification.requestPermission().then(function (permission) {
+        if (permission === "granted") {
+          // Crea y muestra la notificación
+          var notification = new Notification('Nuevo Nombre:', {
+            body: name
+          });
+        }
+      });
+    } else {
+      console.error('Tu navegador no admite notificaciones.');
+    }
+  }
+
+  // Verifica el JSON y muestra notificaciones cada minuto
+  setInterval(verificarJSONyNotificar, 6000);
+</script>
+</head>
+<body>
+<!-- Contenido de la página -->
+</body>
+</html>

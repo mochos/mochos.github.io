@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa del Overworld</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="shortcut icon" href="mapa-recursos/icon.png"/>
+
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <meta name="msapplication-TileColor" content="#4caf50 ">
+    <meta name="theme-color" content="#4caf50 ">
+
+    <style>
+        body {margin: 0;}
+        #map {
+            height: 100vh; width: 100vw;
+        }
+        img {image-rendering: pixelated;}
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        var map = L.map('map', {
+            crs: L.CRS.Simple,
+            minZoom: 4,
+            maxZoom: 12
+        });
+
+        // Obtener los argumentos de la URL
+        var urlParams = new URLSearchParams(window.location.search);
+        var showCoordinates = urlParams.get('coords');
+        var x = parseFloat(urlParams.get('x')) || 0.93;  // Valor predeterminado si no se proporciona
+        var y = parseFloat(urlParams.get('y')) || 0.01;  // Valor predeterminado si no se proporciona
+        var z = parseInt(urlParams.get('z')) || 8;      // Valor predeterminado si no se proporciona
+
+        // Carpeta que contiene las imágenes
+        var imagePathPrimary = 'https://raw.githubusercontent.com/mochos/mochos.github.io/main/tula/mapa/mapa-server/';
+        var imagePathSecondary = 'https://raw.githubusercontent.com/mochos/mochos.github.io/main/tula/mapa/mapa-explorado/'
+;
+        // Dimensiones de cada imagen
+        var imageSize = 1;
+
+        // Tamaño total de la matriz de imágenes
+        var matrixSize = 31;
+
+        // Centrar el mapa en la posición proporcionada
+        var centerCoords = [0, 0];
+        var coordenadaInicial = [x, y];
+
+        // Determinar la ruta de la imagen dependiendo del parámetro explorado
+        var imagePath = (urlParams.get('explorado') === 'true') ? imagePathSecondary : imagePathPrimary;
+
+        var imageUrl = imagePath + '0,0.png';
+        var imageBounds = [centerCoords, [centerCoords[0] + imageSize, centerCoords[1] + imageSize]];
+
+        L.imageOverlay(imageUrl, imageBounds).addTo(map);
+
+        function loadImages() {
+            for (var i = -matrixSize; i <= matrixSize; i++) {
+                for (var j = -matrixSize; j <= matrixSize; j++) {
+                    if (i === 0 && j === 0) {
+                        continue; // Saltar la imagen central
+                    }
+
+                    var imageX = centerCoords[0] + i * imageSize;
+                    var imageY = centerCoords[1] + j * imageSize;
+                    var imageXinv = -imageX;
+
+                    var imageUrl = imagePath + imageY + ',' + imageXinv + '.png';
+                    var imageBounds = [[imageX, imageY], [imageX + imageSize, imageY + imageSize]];
+
+                    // Crear la imagen con lazy loading
+                    var img = new Image();
+                    img.src = imageUrl;
+                    img.loading = 'lazy'; // Agregar lazy loading
+
+                    L.imageOverlay(imageUrl, imageBounds).addTo(map);
+                }
+            }
+        }
+
+        // Llama a la función para cargar las imágenes
+        loadImages();
+
+        // Crea un ícono personalizado
+        var marcadorAzul = L.icon({
+            iconUrl: 'https://raw.githubusercontent.com/mochos/mochos.github.io/main/tula/mapa/mapa-recursos/marcador-azul.png',
+            iconSize: [32, 32],
+            iconAnchor: [16, 16],
+            popupAnchor: [0, 0]
+        });
+        var marcadorAmarillo = L.icon({
+            iconUrl: 'https://raw.githubusercontent.com/mochos/mochos.github.io/main/tula/mapa/mapa-recursos/marcador-amarillo.png',
+            iconSize: [32, 32],
+            iconAnchor: [16, 16],
+            popupAnchor: [0, 0]
+        });
+        var marcadorMorado = L.icon({
+            iconUrl: 'https://raw.githubusercontent.com/mochos/mochos.github.io/main/tula/mapa/mapa-recursos/marcador-morado.png',
+            iconSize: [32, 32],
+            iconAnchor: [16, 16],
+            popupAnchor: [0, 0]
+        });
+
+        // Agrega marcadores u otras capas aquí si es necesario
+        L.marker([-0.54, 1.53], { icon: marcadorAzul }).addTo(map)
+            .bindPopup('<b>TeamMochos</b><br>x:783, z:788');
+        L.marker([-0.34, 0.80], { icon: marcadorAzul }).addTo(map)
+            .bindPopup('<b>Zona Africana</b><br>x:409, z:686');
+        L.marker([-1.07, -0.04], { icon: marcadorAzul }).addTo(map)
+            .bindPopup('<b>Disubi</b><br>x:-20, z:1059');
+        L.marker([-0.03, -1.13], { icon: marcadorAzul }).addTo(map)
+            .bindPopup('<b>ElGasnal</b><br>x:-578, z:527');
+        L.marker([-0.78, 1.39], { icon: marcadorAzul }).addTo(map)
+            .bindPopup('<b>LaPetitxd</b><br>x:711, z:911');
+        L.marker([0.72, 0.37], { icon: marcadorAzul }).addTo(map)
+            .bindPopup('<b>Me la bufa 3 cojones</b><br>x:189, z:143');
+        L.marker([-4.66, -4.46], { icon: marcadorAzul }).addTo(map)
+            .bindPopup('<b>Felivilla</b><br>x:-2285, z:2899');
+        L.marker([0.78, -1.34], { icon: marcadorAzul }).addTo(map)
+            .bindPopup('<b>Lepe</b><br>x:-686, z:112');
+        L.marker([3.10, 0.92], { icon: marcadorAzul }).addTo(map)
+            .bindPopup('<b>Casita de Abdryta</b><br>x:468, z:-1076');
+        L.marker([7.09, 1.21], { icon: marcadorAzul }).addTo(map)
+            .bindPopup('<b>Casa Alice</b><br>x:620, z:-3119');
+        L.marker([-0.40, -0.90], { icon: marcadorAzul }).addTo(map)
+            .bindPopup('<b>Casa de Polispol</b><br>x:-461, z:715');
+        /*L.marker([_____], { icon: marcadorAzul }).addTo(map)
+            .bindPopup('<b>_____</b><br>_____');*/
+        //---
+        L.marker([-4.57, 5.86], { icon: marcadorAmarillo }).addTo(map)
+            .bindPopup('<b>Cromaracure</b><br>x:3000, z:2851');
+        L.marker([0.59, 11.44], { icon: marcadorAmarillo }).addTo(map)
+            .bindPopup('<b>The Machine</b><br>x:5857, z:209');
+        L.marker([-4.81, -1.77], { icon: marcadorAmarillo }).addTo(map)
+            .bindPopup('<b>Nave 1</b><br>x:-906, z:2974');
+        L.marker([-12.48, 1.84], { icon: marcadorAmarillo }).addTo(map)
+            .bindPopup('<b>Las Vegas</b><br>x:942, z:6901');
+        L.marker([0.83, -4.70], { icon: marcadorAmarillo }).addTo(map)
+            .bindPopup('<b>Cuevas Primordiales</b><br>x:-2406, z:87');
+        L.marker([10.36, -9.23], { icon: marcadorAmarillo }).addTo(map)
+            .bindPopup('<b>Valkiria</b><br>x:-4725, z:-4792');
+        L.marker([-5.14, 0.04], { icon: marcadorAmarillo }).addTo(map)
+            .bindPopup('<b>Cuevas de sal</b><br>x:22, z:3144');
+        L.marker([5.20, 6.83], { icon: marcadorAmarillo }).addTo(map)
+            .bindPopup('<b>Cuevas magnéticas</b><br>x:3494, z:-2150');
+        /*L.marker([_____], { icon: marcadorAmarillo }).addTo(map)
+            .bindPopup('<b>_____</b><br>_____');*/
+        
+        //---
+        L.marker([0.77, -0.09], { icon: marcadorMorado }).addTo(map)
+            .bindPopup('<b>Plaza</b><br>x:-46, z:117');
+
+        // Coordenadas de un polígono
+        var bahiaMalagaCoords = [
+            [-0.23, 1.79],
+            [-0.32, 1.93],
+            [-0.72, 1.86],
+            [-0.77, 1.43],
+            [-0.69, 1.29],
+            [-0.33, 1.32],
+            [-0.24, 1.60]
+        ];
+
+        // Crea un marcador de área
+        var bahiaMalagaMarker = L.polygon(bahiaMalagaCoords, {
+            color: '#0392ce', // Color de borde del área
+            fillColor: '#0392ce', // Color de relleno del área
+            fillOpacity: 0.1, // Opacidad del relleno
+            weight: 1 // Cambia el valor de weight para controlar la opacidad del borde
+        }).addTo(map);
+
+        // Agrega una etiqueta al área
+        bahiaMalagaMarker.bindPopup('Bahía Málaga');
+
+        // Agrega un control de clic al mapa solo si se proporciona el argumento en la URL
+        if (showCoordinates === 'true') {
+            map.on('click', function(e) {
+                var coordinates = e.latlng;
+                var lat = coordinates.lat.toFixed(2);
+                var lng = coordinates.lng.toFixed(2);
+
+                var latMC = parseInt(lat * 512 - 512)*-1;
+                var lngMC = parseInt(lng * 512);
+
+                // Crea un enlace que lleva a las coordenadas en la URL
+                var link = '<a href="?x=' + lat + '&y=' + lng + '&z=' + map.getZoom() + '">Ir a estas coordenadas</a>';
+
+                L.popup()
+                    .setLatLng(coordinates)
+                    .setContent("<b>Coordenadas Web:</b> " + lat + ", " + lng + "<br>" + "<b>Coordenadas Minecraft:</b> x:" + lngMC + ", z:" + latMC + "<br>" + link)
+                    .openOn(map);
+            });
+        }
+        // Centra el mapa y establece el nivel de zoom
+        map.setView(coordenadaInicial, z);
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var images = document.getElementsByTagName('img');
+
+            for (var i = 0; i < images.length; i++) {
+                images[i].addEventListener('error', function() {
+                    // Aplica estilos a las imágenes que no se han cargado
+                    this.style.opacity = '0';
+                });
+            }
+        });
+    </script>
+    <script async data-id="101432442" src="//static.getclicky.com/js"></script>
+</body>
+</html>
