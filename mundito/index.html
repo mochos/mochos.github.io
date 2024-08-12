@@ -32,8 +32,8 @@
         <input type="checkbox" class="read-more-state" id="post-1" />
         <div class="read-more-wrap">
             <h2><span id="jugadores"></span>
-                <a href="https://stats.uptimerobot.com/vpbB3Zq4A4" target="_blank"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fminecraft-server-status-badge.vercel.app%2Fapi%2Fserver%2Fmundito.mochos.xyz%3Fport%3D25565&style=for-the-badge" alt="Estado"/></a> <a href="https://stats.uptimerobot.com/vpbB3Zq4A4" target="_blank"><img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fmapa.mochos.xyz%2F&up_message=Online&down_message=Offline&style=for-the-badge&label=Dynmap&up_color=97ca00"></a>
-                <!--<span id="estado">Cargando estado...</span>--></h2>
+                <!--<a href="https://stats.uptimerobot.com/vpbB3Zq4A4" target="_blank"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fminecraft-server-status-badge.vercel.app%2Fapi%2Fserver%2Fmundito.mochos.xyz%3Fport%3D25565&style=for-the-badge" alt="Estado"/></a> <a href="https://stats.uptimerobot.com/vpbB3Zq4A4" target="_blank"><img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fmapa.mochos.xyz%2F&up_message=Online&down_message=Offline&style=for-the-badge&label=Dynmap&up_color=97ca00"></a>-->
+                <span id="estado">Cargando estado...</span></h2>
         <span class="read-more-target">
             <p><span id="lista"></span></p><br>
             <h2><span class="estado">
@@ -93,7 +93,7 @@ $('.clipboard').on('click', function() {
                     $('#btnestado').addClass("alert-danger");
                 } else {
                     $('#estado').text('jugador' + es + ' conectado' + os);
-                    $('#jugadores').html('🟢' + r.players.online + '&nbsp;');
+                    $('#jugadores').html('🟢' + r.players.online);
                     $('#btnestado').addClass("alert-success");
                     $('#btnestado').addClass("button-glow");
 
