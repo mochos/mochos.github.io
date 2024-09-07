@@ -11,12 +11,18 @@
     <link href="img/180.png" rel="apple-touch-icon" sizes="180x180" />
     <link href="img/192.png" rel="icon" sizes="192x192" />
     <link href="img/128.png" rel="icon" sizes="128x128" />-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
 <body class="aurora">
     <div class="container">
         <img src="https://raw.githubusercontent.com/mochos/mochos.github.io/main/_index/TeamMochos-Blanco.svg">
+        <br>
+        <div class="buttons">
+          <button class="pulse" onclick="window.location.href='https://discord.mochos.xyz';">Discord</button>
+          <button class="pulse" onclick="window.location.href='http://mundito.mochos.xyz';">Mundito</button>
+        </div>
       </div>
   </body>
 
@@ -42,8 +48,9 @@ body {
 }
 .container {
   display: flex;
-    align-items: center;
-    justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 100%;
 }
 img {max-width: 70%; max-height: 70%;}
@@ -253,6 +260,67 @@ img {max-width: 70%; max-height: 70%;}
     top: 50vh;
     left: 100vw;
   }
+}
+
+/* ESTILOS BOTONES */
+.pulse:hover,
+.pulse:focus {
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+.fill {
+  --color: #a972cb;
+  --hover: #cb72aa;
+}
+
+.pulse {
+  --color: #ef6eae;
+  --hover: #ef8f6e;
+}
+
+button {
+  color: var(--color);
+  transition: 0.25s;
+
+}
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+body {
+  background: #17181c;
+  font: 300 1em "Fira Sans", sans-serif;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 </style>

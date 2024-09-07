@@ -158,10 +158,10 @@ p {
 }
 
 .read-more-state ~ .read-more-trigger:before {
-  content: 'Mostrar más';
+  content: 'Mostrar jugadores';
 }
 .read-more-state:checked ~ .read-more-trigger:before {
-  content: 'Mostrar menos';
+  content: 'Ocultar jugadores';
 }
 .read-more-trigger {
   display: inline-block;
