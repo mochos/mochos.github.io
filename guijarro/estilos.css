@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  background: url(img/fondo.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: right center;
+  font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#header, #footer, #sidebar {
+  display: none;
+}
+
+* {
+  align-content: center;
+  text-align: center;
+}
+
+.enlace {
+  cursor: pointer;
+  color: #8989D7;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.enlace:hover {
+  text-decoration: underline;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 95vh; /* Asigna una altura mínima al contenedor para que ocupe toda la pantalla */
+}
+
+.botones {display: flex;}
+
+.boton{
+  font-family: 'Press Start 2P', monospace;
+  text-decoration: none;
+  display: inline-block;
+  background: linear-gradient(#5c5c5c 50%, #313131 50%);
+  color: #fff;
+  border: none;
+  font-size: 1.0rem;
+  margin: 8px;
+  padding: 16px 24px;
+  text-shadow: 2px 2px #3f3f3f, 0 2px #3f3f3f, 2px 0 #3f3f3f;
+  box-shadow: inset 0 3px 0px rgba(255,255,255,0.3),
+              inset 3px 0px 0px rgba(255,255,255,0.2),
+              inset 0 -3px 0px rgba(0,0,0,0.2),
+              inset -3px 0px 0px rgba(0,0,0,0.1),
+              3px 0px 0px #2f2f2f,
+              -3px 0px 0px #2f2f2f,
+              0px 3px 0px #2f2f2f,
+              0px -3px 0px #2f2f2f;
+}
+
+.boton:hover {
+  background: linear-gradient(#8d8d8d 50%, #676767 50%);
+  box-shadow: inset 0 3px 0px rgba(255,255,255,0.4),
+              inset 3px 0px 0px rgba(255,255,255,0.3),
+              inset 0 -3px 0px rgba(0,0,0,0.3),
+              inset -3px 0px 0px rgba(0,0,0,0.2),
+              3px 0px 0px #2f2f2f,
+              -3px 0px 0px #2f2f2f,
+              0px 3px 0px #2f2f2f,
+              0px -3px 0px #2f2f2f;
+}
+.boton span {
+  text-align: center;
+  width: 100%;
+}
+
+
+
+/*----------------*/
+
+.info {
+  background-color: #2f2f2f;
+  color: #aaaaaa;
+  align-items: center;
+  padding: 24px 32px;
+  margin: 32px auto;
+  box-shadow: inset 0 3px 0px rgba(255,255,255,0.3),
+              inset 3px 0px 0px rgba(255,255,255,0.2),
+              inset 0 -3px 0px rgba(0,0,0,0.2),
+              inset -3px 0px 0px rgba(0,0,0,0.1),
+              3px 0px 0px #2f2f2f,
+              -3px 0px 0px #2f2f2f,
+              0px 3px 0px #2f2f2f,
+              0px -3px 0px #2f2f2f;
+}
+
+h2 {
+  font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+  letter-spacing: 0.25px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 4px;
+  color: #aaaaaa;
+  margin: 0px 0px 4px;
+  text-transform: none;
+  /*display: flex;*/
+}
+h2 span {font-weight: 300 !important;}
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 0px;
+  color: rgb(208, 197, 192);
+  font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+}
+ 
+
+/* Escritorio (mínimo 768px) */
+@media (min-width: 768px) {
+  .botones {
+    flex-direction: row; /* Disponer botones en fila */
+  }
+  .boton {max-width: -webkit-fill-available;}
+}
+
+/* Móvil (máximo 767px) */
+@media (max-width: 767px) {
+  .botones {
+    flex-direction: column; /* Disponer botones en columna */
+  }
+  .boton {max-width: -webkit-fill-available;}
+}
+
+/*----------------*/
+
+.read-more-state {
+  display: none;
+}
+.read-more-target {
+  display: none;
+  font-size: 0;
+  transition: .25s ease;
+  max-width: 512px;
+
+}
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  display: inline-block;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Mostrar jugadores';
+}
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Ocultar jugadores';
+}
+.read-more-trigger {
+  display: inline-block;
+  padding-top: 16px;
+}
