@@ -1,1 +1,29 @@
+RP DE EJEMPLO
 https://github.com/ElecYT/Elecs-Custom-Ranks/tree/main
+
+
+CARACTERES
+ = Admin
+ = Mod
+ = Lider
+ = Streamer
+
+
+
+
+
+
+
+
+
+
+
+
+Convertir a UTF-16
+https://www.coderstool.com/unicode-text-converter
+
+
+CONFIGURACIÓN DEL SERVIDOR
+server.properties
+require-resource-pack=true
+resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon.zip
