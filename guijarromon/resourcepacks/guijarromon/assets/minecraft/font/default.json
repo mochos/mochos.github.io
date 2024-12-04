@@ -3,29 +3,29 @@
         {
             "type": "bitmap",
             "file": "minecraft:ranks/admin.png",
-            "ascent": 14,
-            "height": 14,
+            "ascent": 7,
+            "height": 7,
             "chars": ["\uE800"]
     },
         {
             "type": "bitmap",
             "file": "minecraft:ranks/mod.png",
-            "ascent": 14,
-            "height": 14,
+            "ascent": 7,
+            "height": 7,
             "chars": ["\uE801"]
         },
         {
             "type": "bitmap",
             "file": "minecraft:ranks/lider.png",
-            "ascent": 14,
-            "height": 14,
+            "ascent": 7,
+            "height": 7,
             "chars": ["\uE802"]
         },
         {
             "type": "bitmap",
             "file": "minecraft:ranks/streamer.png",
-            "ascent": 14,
-            "height": 14,
+            "ascent": 7,
+            "height": 7,
             "chars": ["\uE803"]
         }
     ]
