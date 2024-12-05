@@ -27,6 +27,62 @@
             "ascent": 7,
             "height": 7,
             "chars": ["\uE803"]
+        },/*-------------------------------------------*/
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/logo.png",
+            "ascent": 48,
+            "height": 48,
+            "chars": ["\uE804"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/icon.png",
+            "ascent": 43,
+            "height": 43,
+            "chars": ["\uE805"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/discord.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE806"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/telegram.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE807"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/tiktok.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE808"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/twitch.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE809"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/whatsapp.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE80A"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/youtube.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE80B"]
         }
     ]
 }

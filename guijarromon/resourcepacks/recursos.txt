@@ -7,14 +7,14 @@ CARACTERES
  = Mod
  = Lider
  = Streamer
-
-
-
-
-
-
-
-
+ = Logo
+ = Icon
+ = Discord
+ = Telegram
+ = Tiktok
+ = Twitch
+ = Whatsapp
+ = YouTube
 
 
 
@@ -26,4 +26,4 @@ https://www.coderstool.com/unicode-text-converter
 CONFIGURACIÓN DEL SERVIDOR
 server.properties
 require-resource-pack=true
-resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.1.zip
+resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.2.zip
