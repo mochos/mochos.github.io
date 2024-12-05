@@ -30,9 +30,9 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:misc/logo.png",
-            "ascent": 48,
-            "height": 48,
+            "file": "minecraft:misc/guijarro-logo.png",
+            "ascent": 36,
+            "height": 36,
             "chars": ["\uE804"]
         },
         {
@@ -83,13 +83,6 @@
             "ascent": 8,
             "height": 8,
             "chars": ["\uE80B"]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/logo.png",
-            "ascent": 48,
-            "height": 48,
-            "chars": ["\uE80C"]
         }
     ]
 }

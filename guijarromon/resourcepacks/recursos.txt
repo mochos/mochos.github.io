@@ -15,7 +15,7 @@ CARACTERES
  = Twitch
  = Whatsapp
  = YouTube
- = Logo
+
 
 
 
