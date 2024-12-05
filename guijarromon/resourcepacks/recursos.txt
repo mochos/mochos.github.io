@@ -26,4 +26,4 @@ https://www.coderstool.com/unicode-text-converter
 CONFIGURACIÓN DEL SERVIDOR
 server.properties
 require-resource-pack=true
-resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.4.zip
+resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.5.zip
