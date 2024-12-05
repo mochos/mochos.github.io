@@ -27,7 +27,7 @@
             "ascent": 7,
             "height": 7,
             "chars": ["\uE803"]
-        },/*-------------------------------------------*/
+        },
         {
             "type": "bitmap",
             "file": "minecraft:misc/logo.png",
