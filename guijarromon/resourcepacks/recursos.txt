@@ -25,5 +25,25 @@ https://www.coderstool.com/unicode-text-converter
 
 CONFIGURACIÓN DEL SERVIDOR
 server.properties
+
 require-resource-pack=true
 resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.5.zip
+
+tab
+
+  header:
+    - "<#FFFFFF>&m                                                          </#FFFF00>&r"
+    - " "
+    - " "
+    - " "
+    - " "
+    - "    "
+    - " "
+    - "&7Conectados: &f%online%"
+    - ""
+  footer:
+    - "&aPing: %ping%"
+    - ""
+    - "&7¿Necesitas ayuda?"
+    - "&7Usa el comando: &e/ayuda"
+    - "<#FFFFFF>&m    
