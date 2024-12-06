@@ -13,7 +13,7 @@ CARACTERES
  = Telegram
  = Tiktok
  = Twitch
- = Whatsapp
+ = Logo peque
  = YouTube
 
 
