@@ -46,28 +46,28 @@
             "type": "bitmap",
             "file": "minecraft:misc/discord.png",
             "ascent": 8,
-            "height": 8,
+            "height": 10,
             "chars": ["\uE806"]
         },
         {
             "type": "bitmap",
             "file": "minecraft:misc/telegram.png",
             "ascent": 8,
-            "height": 8,
+            "height": 10,
             "chars": ["\uE807"]
         },
         {
             "type": "bitmap",
             "file": "minecraft:misc/tiktok.png",
             "ascent": 8,
-            "height": 8,
+            "height": 10,
             "chars": ["\uE808"]
         },
         {
             "type": "bitmap",
             "file": "minecraft:misc/twitch.png",
             "ascent": 8,
-            "height": 8,
+            "height": 10,
             "chars": ["\uE809"]
         },
         {
@@ -81,7 +81,7 @@
             "type": "bitmap",
             "file": "minecraft:misc/youtube.png",
             "ascent": 8,
-            "height": 8,
+            "height": 10,
             "chars": ["\uE80B"]
         }
     ]
