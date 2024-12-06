@@ -22,6 +22,15 @@ CARACTERES
 Convertir a UTF-16
 https://www.coderstool.com/unicode-text-converter
 
+ITEMS
+/give lorspi minecraft:gold_nugget{CustomModelData:100}
+/give lorspi minecraft:gold_nugget{CustomModelData:101}
+/give lorspi minecraft:gold_nugget{CustomModelData:102}
+
+/give lorspi minecraft:bread{CustomModelData:100}
+/give lorspi minecraft:bread{CustomModelData:101}
+/give lorspi minecraft:bread{CustomModelData:102}
+
 
 CONFIGURACIÓN DEL SERVIDOR
 server.properties
