@@ -30,7 +30,7 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:misc/logo-38.png",
+            "file": "minecraft:misc/logo.png",
             "ascent": 38,
             "height": 38,
             "chars": ["\uE804"]
@@ -72,7 +72,7 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:misc/logo-19.png",
+            "file": "minecraft:misc/logo.png",
             "ascent": 19,
             "height": 19,
             "chars": ["\uE80A"]
