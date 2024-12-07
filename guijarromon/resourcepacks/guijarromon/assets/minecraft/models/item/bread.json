@@ -6,12 +6,6 @@
   "overrides": [
     {
       "predicate": {
-        "custom_model_data": 100
-      },
-      "model": "minecraft:item/masamadre"
-    },
-    {
-      "predicate": {
         "custom_model_data": 101
       },
       "model": "minecraft:item/pancrudo"
