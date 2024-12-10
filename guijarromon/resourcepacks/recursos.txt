@@ -24,24 +24,38 @@ https://www.coderstool.com/unicode-text-converter
 
 ITEMS
 Ceitiles
-/give lorspi minecraft:gold_nugget{CustomModelData:100,display:{Name:'["",{"text":"Ceitil","italic":false,"color":"yellow"}]'}}
-/give lorspi minecraft:gold_nugget{CustomModelData:101,display:{Name:'["",{"text":"Pila de ceitiles","italic":false,"color":"yellow"}]'}}
-/give lorspi minecraft:gold_nugget{CustomModelData:102,display:{Name:'["",{"text":"Bolsa de ceitiles","italic":false,"color":"yellow"}]'}}
+  /give lorspi minecraft:gold_nugget{CustomModelData:100,display:{Name:'["",{"text":"Ceitil","italic":false,"color":"yellow"}]'}}
+  /give lorspi minecraft:gold_nugget{CustomModelData:101,display:{Name:'["",{"text":"Pila de ceitiles","italic":false,"color":"yellow"}]'}}
+  /give lorspi minecraft:gold_nugget{CustomModelData:102,display:{Name:'["",{"text":"Bolsa de ceitiles","italic":false,"color":"yellow"}]'}}
 
 Pan de masa madre
-/give lorspi minecraft:phantom_membrane{CustomModelData:100,display:{Name:'["",{"text":"Masa madre","italic":false,"color":"yellow"}]'}}
-/give lorspi minecraft:bread{CustomModelData:101,display:{Name:'["",{"text":"Pan de masa madre crudo","italic":false,"color":"yellow"}]'}}
-/give lorspi minecraft:bread{CustomModelData:102,display:{Name:'["",{"text":"Pan de masa madre","italic":false,"bold":true,"color":"yellow"}]'}}
+  /give lorspi minecraft:phantom_membrane{CustomModelData:100,display:{Name:'["",{"text":"Masa madre","italic":false,"color":"yellow"}]'}}
+  /give lorspi minecraft:bread{CustomModelData:101,display:{Name:'["",{"text":"Pan de masa madre crudo","italic":false,"color":"yellow"}]'}}
+  /give lorspi minecraft:bread{CustomModelData:102,display:{Name:'["",{"text":"Pan de masa madre","italic":false,"bold":true,"color":"yellow"}]'}}
 
 Items OP
-/give lorspi minecraft:diamond_pickaxe{CustomModelData:100,display:{Name:'["",{"text":"Instaminador","italic":false,"color":"blue","bold":true}]',Lore:['["",{"text":"Rompe un radio de 3x3 bloques","italic":false,"color":"white"}]','["",{"text":"No reparable - No encantable","italic":false,"color":"red"}]']}}
+  /give lorspi minecraft:diamond_pickaxe{CustomModelData:100,display:{Name:'["",{"text":"Instaminador","italic":false,"color":"blue","bold":true}]',Lore:['["",{"text":"Rompe un radio de 3x3 bloques","italic":false,"color":"white"}]','["",{"text":"No reparable - No encantable","italic":false,"color":"red"}]']}}
+  
+  /give lorspi minecraft:diamond_pickaxe{CustomModelData:101,display:{Name:'["",{"text":"Instaminador II","italic":false,"color":"light_purple","bold":true}]',Lore:['["",{"text":"Rompe un radio de 3x3 bloques","italic":false,"color":"white"}]','["",{"text":"No reparable - No encantable","italic":false,"color":"red"}]']},Enchantments:[{lvl:5,id:efficiency}]}
+  
+  /give lorspi minecraft:diamond_axe{CustomModelData:100,display:{Name:'["",{"text":"Brisa tempestuosa","italic":false,"color":"dark_aqua","bold":true}]',Lore:['["",{"text":"Evita el daño por caída desde alturas no letales","italic":false,"color":"white"}]','["",{"text":"Infringe más daño al atacar en caída","italic":false,"color":"white"}]','["",{"text":"Úsala para impulsarte hacia arriba","italic":false,"color":"white"}]','["",{"text":"No reparable - No encantable","italic":false,"color":"red"}]']}}
+
+  Faltan nombres, lores y skripts (100 - 103)
+  /give lorspi minecraft:paper{CustomModelData:100,display:{Name:'["",{"text":"______","italic":false,"color":"dark_aqua","bold":true}]',Lore:['["",{"text":"______","italic":false,"color":"white"}]','["",{"text":"______","italic":false,"color":"white"}]','["",{"text":"______","italic":false,"color":"white"}]','["",{"text":"______","italic":false,"color":"red"}]']}}
+
+Iconos
+  Del 4 al 7 iconos:
+  /give lorspi minecraft:paper{CustomModelData:104}
+  Vacío:
+  /give lorspi minecraft:paper{CustomModelData:108,display:{Name:'["",{"text":"   ","italic":false,"color":"dark_aqua","bold":true}]'}}
+
 
 
 CONFIGURACIÓN DEL SERVIDOR
 server.properties
 
 require-resource-pack=true
-resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.8.zip
+resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.10.zip
 
 tab
 

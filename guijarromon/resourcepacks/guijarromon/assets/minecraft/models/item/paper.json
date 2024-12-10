@@ -1,0 +1,62 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/paper"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 100
+      },
+      "model": "minecraft:item/salud1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 101
+      },
+      "model": "minecraft:item/salud2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 102
+      },
+      "model": "minecraft:item/xp1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 103
+      },
+      "model": "minecraft:item/xp2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 104
+      },
+      "model": "minecraft:item/alert"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 105
+      },
+      "model": "minecraft:item/cross"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 106
+      },
+      "model": "minecraft:item/info"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 107
+      },
+      "model": "minecraft:item/check"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 108
+      },
+      "model": "minecraft:item/empty"
+    }
+  ]
+}
