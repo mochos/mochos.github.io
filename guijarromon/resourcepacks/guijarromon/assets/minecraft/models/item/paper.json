@@ -57,6 +57,12 @@
         "custom_model_data": 108
       },
       "model": "minecraft:item/empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 109
+      },
+      "model": "minecraft:item/xpempty"
     }
   ]
 }

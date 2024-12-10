@@ -15,7 +15,7 @@ CARACTERES
  = Twitch
  = Logo peque
  = YouTube
-
+ = Telegram chat
 
 
 
@@ -40,11 +40,19 @@ Items OP
   
   /give lorspi minecraft:diamond_axe{CustomModelData:100,display:{Name:'["",{"text":"Brisa tempestuosa","italic":false,"color":"dark_aqua","bold":true}]',Lore:['["",{"text":"Evita el daño por caída desde alturas no letales","italic":false,"color":"white"}]','["",{"text":"Infringe más daño al atacar en caída","italic":false,"color":"white"}]','["",{"text":"Úsala para impulsarte hacia arriba","italic":false,"color":"white"}]','["",{"text":"No reparable - No encantable","italic":false,"color":"red"}]']}}
 
-  Faltan nombres, lores y skripts (100 - 103)
-  /give lorspi minecraft:paper{CustomModelData:100,display:{Name:'["",{"text":"______","italic":false,"color":"dark_aqua","bold":true}]',Lore:['["",{"text":"______","italic":false,"color":"white"}]','["",{"text":"______","italic":false,"color":"white"}]','["",{"text":"______","italic":false,"color":"white"}]','["",{"text":"______","italic":false,"color":"red"}]']}}
+Faltan nombres, lores y skripts (100 - 103 y 109)
+  /give lorspi minecraft:paper{CustomModelData:100,display:{Name:'["",{"text":"Inyección de salud","italic":false,"color":"red","bold":true}]',Lore:['["",{"text":"Recupera 5 corazones","italic":false,"color":"white"}]','["",{"text":"Clic derecho para usar","italic":false,"color":"gray"}]']}}
+
+  /give lorspi minecraft:paper{CustomModelData:101,display:{Name:'["",{"text":"______","italic":false,"color":"dark_aqua","bold":true}]',Lore:['["",{"text":"______","italic":false,"color":"white"}]','["",{"text":"______","italic":false,"color":"white"}]','["",{"text":"______","italic":false,"color":"white"}]','["",{"text":"______","italic":false,"color":"red"}]']}}
+
+  /give lorspi minecraft:paper{CustomModelData:102,display:{Name:'["",{"text":"Inyección de experiencia","italic":false,"color":"green","bold":true}]',Lore:['["",{"text":"Carga 15 niveles de experiencia","italic":false,"color":"white"}]','["",{"text":"Clic derecho para usar","italic":false,"color":"gray"}]']}}
+
+  /give lorspi minecraft:paper{CustomModelData:103,display:{Name:'["",{"text":"Cartucho de experiencia","italic":false,"color":"green","bold":true}]',Lore:['["",{"text":"Carga 30 niveles de experiencia","italic":false,"color":"white"}]','["",{"text":"Clic derecho para usar","italic":false,"color":"gray"}]']}}
+
+  /give lorspi minecraft:paper{CustomModelData:109,display:{Name:'["",{"text":"Cartucho de experiencia vacío","italic":false,"color":"gray","bold":true}]',Lore:['["",{"text":"Guarda 30 niveles de experiencia","italic":false,"color":"white"}]','["",{"text":"Clic derecho para usar","italic":false,"color":"gray"}]']}}
 
 Iconos
-  Del 4 al 7 iconos:
+  Del 4 al 8 iconos:
   /give lorspi minecraft:paper{CustomModelData:104}
   Vacío:
   /give lorspi minecraft:paper{CustomModelData:108,display:{Name:'["",{"text":"   ","italic":false,"color":"dark_aqua","bold":true}]'}}
@@ -55,7 +63,7 @@ CONFIGURACIÓN DEL SERVIDOR
 server.properties
 
 require-resource-pack=true
-resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.10.zip
+resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.11.zip
 
 tab
 
