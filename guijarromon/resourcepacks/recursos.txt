@@ -40,6 +40,9 @@ Items OP
   
   /give lorspi minecraft:diamond_axe{CustomModelData:100,display:{Name:'["",{"text":"Brisa tempestuosa","italic":false,"color":"dark_aqua","bold":true}]',Lore:['["",{"text":"Evita el daño por caída desde alturas no letales","italic":false,"color":"white"}]','["",{"text":"Infringe más daño al atacar en caída","italic":false,"color":"white"}]','["",{"text":"Úsala para impulsarte hacia arriba","italic":false,"color":"white"}]','["",{"text":"No reparable - No encantable","italic":false,"color":"red"}]']}}
 
+Orejitas de diorvi
+  /give lorspi minecraft:carved_pumpkin{CustomModelData:100,display:{Name:'["",{"text":"Orejitas de diorvi","italic":false,"color":"aqua"}]'}}
+
 Faltan nombres, lores y skripts (100 - 103 y 109)
   /give lorspi minecraft:paper{CustomModelData:100,display:{Name:'["",{"text":"Inyección de salud","italic":false,"color":"red","bold":true}]',Lore:['["",{"text":"Recupera 5 corazones","italic":false,"color":"white"}]','["",{"text":"Clic derecho para usar","italic":false,"color":"gray"}]']}}
 
@@ -63,7 +66,7 @@ CONFIGURACIÓN DEL SERVIDOR
 server.properties
 
 require-resource-pack=true
-resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.11.zip
+resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.12.zip
 
 tab
 
