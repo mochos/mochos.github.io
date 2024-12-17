@@ -30,16 +30,16 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:misc/logo.png",
-            "ascent": 38,
-            "height": 38,
+            "file": "minecraft:misc/normal.png",
+            "ascent": 155,
+            "height": 155,
             "chars": ["\uE804"]
         },
         {
             "type": "bitmap",
-            "file": "minecraft:misc/icon.png",
-            "ascent": 43,
-            "height": 43,
+            "file": "minecraft:misc/largo.png",
+            "ascent": 90,
+            "height": 90,
             "chars": ["\uE805"]
         },
         {
@@ -72,9 +72,9 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:misc/logo.png",
-            "ascent": 19,
-            "height": 19,
+            "file": "minecraft:misc/normal.png",
+            "ascent": 77,
+            "height": 77,
             "chars": ["\uE80A"]
         },
         {
