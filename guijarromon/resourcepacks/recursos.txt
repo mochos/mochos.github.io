@@ -60,13 +60,17 @@ Iconos
   Vacío:
   /give lorspi minecraft:paper{CustomModelData:108,display:{Name:'["",{"text":"   ","italic":false,"color":"dark_aqua","bold":true}]'}}
 
+Matrimonio
+  /give lorspi minecraft:amethyst_shard{CustomModelData:100,display:{Name:'["",{"text":"Anillo de compromiso","italic":false,"color":"light_purple","bold":true}]',Lore:['["",{"text":"Úsalo para comprometerte tu pareja","italic":false,"color":"white"}]','["",{"text":"Prepara tu boda y busca un cura para casarte","italic":false,"color":"white"}]']}}
+  /give lorspi minecraft:amethyst_shard{CustomModelData:101,display:{Name:'["",{"text":"Anillo de matrimonio","italic":false,"color":"light_purple","bold":true}]'}}
+
 
 
 CONFIGURACIÓN DEL SERVIDOR
 server.properties
 
 require-resource-pack=true
-resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.14.zip
+resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.15.zip
 
 tab
 
