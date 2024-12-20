@@ -27,6 +27,9 @@ Ceitiles
   /give lorspi minecraft:gold_nugget{CustomModelData:100,display:{Name:'["",{"text":"Ceitil","italic":false,"color":"yellow"}]'}}
   /give lorspi minecraft:gold_nugget{CustomModelData:101,display:{Name:'["",{"text":"Pila de ceitiles","italic":false,"color":"yellow"}]'}}
   /give lorspi minecraft:gold_nugget{CustomModelData:102,display:{Name:'["",{"text":"Bolsa de ceitiles","italic":false,"color":"yellow"}]'}}
+  /give lorspi minecraft:item_frame{EntityTag:{Invisible:1}}
+  /give lorspi minecraft:glow_item_frame{EntityTag:{Invisible:1}}
+  /give lorspi minecraft:gold_nugget{CustomModelData:103,display:{Name:'["",{"text":" ","italic":false,"color":"yellow"}]'}}
 
 Pan de masa madre
   /give lorspi minecraft:phantom_membrane{CustomModelData:100,display:{Name:'["",{"text":"Masa madre","italic":false,"color":"yellow"}]'}}
@@ -61,7 +64,7 @@ Iconos
   /give lorspi minecraft:paper{CustomModelData:108,display:{Name:'["",{"text":"   ","italic":false,"color":"dark_aqua","bold":true}]'}}
 
 Matrimonio
-  /give lorspi minecraft:amethyst_shard{CustomModelData:100,display:{Name:'["",{"text":"Anillo de compromiso","italic":false,"color":"light_purple","bold":true}]',Lore:['["",{"text":"Úsalo para comprometerte tu pareja","italic":false,"color":"white"}]','["",{"text":"Prepara tu boda y busca un cura para casarte","italic":false,"color":"white"}]']}}
+  /give lorspi minecraft:amethyst_shard{CustomModelData:100,display:{Name:'["",{"text":"Anillo de compromiso","italic":false,"color":"aqua","bold":true}]',Lore:['["",{"text":"Úsalo para comprometerte tu pareja","italic":false,"color":"white"}]','["",{"text":"Prepara tu boda y busca un cura para casarte","italic":false,"color":"white"}]']}}
   /give lorspi minecraft:amethyst_shard{CustomModelData:101,display:{Name:'["",{"text":"Anillo de matrimonio","italic":false,"color":"light_purple","bold":true}]'}}
 
 
@@ -70,23 +73,8 @@ CONFIGURACIÓN DEL SERVIDOR
 server.properties
 
 require-resource-pack=true
-resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.15.zip
+resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.16.zip
 
-tab
+TITULO DE SALIDA WORLDGUARD
 
-  header:
-    - "<#FFFFFF>&m                                                          </#FFFF00>&r"
-    - " "
-    - " "
-    - " "
-    - " "
-    - "    "
-    - " "
-    - "&7Conectados: &f%online%"
-    - ""
-  footer:
-    - "&aPing: %ping%"
-    - ""
-    - "&7¿Necesitas ayuda?"
-    - "&7Usa el comando: &e/ayuda"
-    - "<#FFFFFF>&m    
+/rg flag -w "Semilla nuevo" -h 5 spawn farewell-title &c&lSaliendo de Cobbled Farms\n&cTu vida está fuera de protección

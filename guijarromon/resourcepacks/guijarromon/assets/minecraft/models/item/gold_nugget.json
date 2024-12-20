@@ -21,6 +21,12 @@
         "custom_model_data": 102
       },
       "model": "minecraft:item/bolsa_ceitiles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 103
+      },
+      "model": "minecraft:block/pila_ceitiles_3d"
     }
   ]
 }

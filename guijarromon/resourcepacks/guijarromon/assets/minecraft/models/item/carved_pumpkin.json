@@ -1,8 +1,14 @@
 {
- "parent": "item/generated",
- "textures": {
-  "layer0": "item/carved_pumpkin"
- },
+ "parent": "block/cube_column",
+  "textures": {
+    "particle": "block/pumpkin_side",
+    "down": "block/pumpkin_top",
+    "up": "block/pumpkin_top",
+    "north": "block/carved_pumpkin",
+    "south": "block/carved_pumpkin",
+    "west": "block/pumpkin_side",
+    "east": "block/pumpkin_side"
+  },
  
  "overrides": [
   {"predicate": {"custom_model_data":100}, "model": "block/orejitas"}
