@@ -31,6 +31,9 @@ Ceitiles
   /give lorspi minecraft:glow_item_frame{EntityTag:{Invisible:1}}
   /give lorspi minecraft:gold_nugget{CustomModelData:103,display:{Name:'["",{"text":" ","italic":false,"color":"yellow"}]'}}
 
+Carga explosiva
+  /give lorspi minecraft:snowball{CustomModelData:100,display:{Name:'["",{"text":"Carga explosiva","italic":false,"bold":true,"color":"gray"}]'}}
+
 Pan de masa madre
   /give lorspi minecraft:phantom_membrane{CustomModelData:100,display:{Name:'["",{"text":"Masa madre","italic":false,"color":"yellow"}]'}}
   /give lorspi minecraft:bread{CustomModelData:101,display:{Name:'["",{"text":"Pan de masa madre crudo","italic":false,"color":"yellow"}]'}}
