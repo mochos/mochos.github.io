@@ -11,6 +11,7 @@
   },
  
  "overrides": [
-  {"predicate": {"custom_model_data":100}, "model": "block/orejitas"}
+  {"predicate": {"custom_model_data":100}, "model": "block/orejitas"},
+  {"predicate": {"custom_model_data":101}, "model": "block/torta"}
  ]
 }
