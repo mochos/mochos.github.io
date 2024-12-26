@@ -53,6 +53,11 @@ Orejitas de diorvi
 Torta de matrimonio
   /give lorspi minecraft:carved_pumpkin{CustomModelData:101,display:{Name:'["",{"text":"Torta de matrimonio","italic":false,"color":"aqua"}]'}}
 
+Girasoles decorativos
+  /give lorspi minecraft:sunflower{CustomModelData:100}
+  /give lorspi minecraft:sunflower{CustomModelData:101}
+  /give lorspi minecraft:sunflower{CustomModelData:102}
+
 Inyecciones y cartuchos
   /give lorspi minecraft:golden_apple{CustomModelData:100,display:{Name:'["",{"text":"Inyección de salud","italic":false,"color":"red","bold":true}]',Lore:['["",{"text":"Recupera 5 corazones","italic":false,"color":"white"}]','["",{"text":"Revive a un compañero caído","italic":false,"color":"white"}]','["",{"text":"Clic derecho para usar","italic":false,"color":"gray"}]']}}
 
@@ -80,7 +85,7 @@ CONFIGURACIÓN DEL SERVIDOR
 server.properties
 
 require-resource-pack=true
-resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.21.zip
+resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.22.zip
 
 TITULO DE SALIDA WORLDGUARD
 
