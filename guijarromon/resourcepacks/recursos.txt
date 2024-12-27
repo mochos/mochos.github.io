@@ -58,6 +58,14 @@ Girasoles decorativos
   /give lorspi minecraft:sunflower{CustomModelData:101}
   /give lorspi minecraft:sunflower{CustomModelData:102}
 
+Sustancias (Sin terminar)
+  /give lorspi bread{CustomModelData:103}
+  /give lorspi minecraft:potion{CustomModelData:100}
+  /give lorspi minecraft:potion{CustomModelData:101}
+  /give lorspi minecraft:potion{CustomModelData:102}
+  /give lorspi minecraft:potion{CustomModelData:103}
+  /give lorspi minecraft:potion{CustomModelData:104}
+
 Inyecciones y cartuchos
   /give lorspi minecraft:golden_apple{CustomModelData:100,display:{Name:'["",{"text":"Inyección de salud","italic":false,"color":"red","bold":true}]',Lore:['["",{"text":"Recupera 5 corazones","italic":false,"color":"white"}]','["",{"text":"Revive a un compañero caído","italic":false,"color":"white"}]','["",{"text":"Clic derecho para usar","italic":false,"color":"gray"}]']}}
 
@@ -85,7 +93,7 @@ CONFIGURACIÓN DEL SERVIDOR
 server.properties
 
 require-resource-pack=true
-resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.22.zip
+resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.23.zip
 
 TITULO DE SALIDA WORLDGUARD
 
