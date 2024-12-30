@@ -16,7 +16,7 @@ CARACTERES
  = Logo normal peque
  = YouTube
  = Telegram chat
-
+ = Sacerdote
 
 
 Convertir a UTF-16
@@ -29,6 +29,7 @@ Ceitiles
   /give lorspi minecraft:gold_nugget{CustomModelData:102,display:{Name:'["",{"text":"Bolsa de ceitiles","italic":false,"color":"yellow"}]'}}
   /give lorspi minecraft:item_frame{EntityTag:{Invisible:1}}
   /give lorspi minecraft:glow_item_frame{EntityTag:{Invisible:1}}
+  /give lorspi minecraft:item_frame{EntityTag:{Invisible:1}}
   /kill @e[type=minecraft:glow_item_frame,distance=..10]
   /give lorspi minecraft:gold_nugget{CustomModelData:103,display:{Name:'["",{"text":" ","italic":false,"color":"yellow"}]'}}
 
@@ -51,7 +52,7 @@ Orejitas de diorvi
   /give lorspi minecraft:carved_pumpkin{CustomModelData:100,display:{Name:'["",{"text":"Orejitas de diorvi","italic":false,"color":"aqua"}]'}}
 
 Torta de matrimonio
-  /give lorspi minecraft:carved_pumpkin{CustomModelData:101,display:{Name:'["",{"text":"Torta de matrimonio","italic":false,"color":"aqua"}]'}}
+  /give lorspi minecraft:carved_pumpkin{CustomModelData:101,display:{Name:'["",{"text":" ","italic":false,"color":"aqua"}]'}}
 
 Girasoles decorativos
   /give lorspi minecraft:sunflower{CustomModelData:100}
@@ -93,7 +94,7 @@ CONFIGURACIÓN DEL SERVIDOR
 server.properties
 
 require-resource-pack=true
-resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.23.zip
+resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.24.zip
 
 TITULO DE SALIDA WORLDGUARD
 
