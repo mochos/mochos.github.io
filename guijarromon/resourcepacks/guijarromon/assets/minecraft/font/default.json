@@ -93,7 +93,7 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:misc/sacerdote.png",
+            "file": "minecraft:ranks/sacerdote.png",
             "ascent": 7,
             "height": 7,
             "chars": ["\ue80D"]
