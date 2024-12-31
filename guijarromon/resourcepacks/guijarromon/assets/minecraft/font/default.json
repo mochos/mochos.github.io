@@ -97,6 +97,13 @@
             "ascent": 7,
             "height": 7,
             "chars": ["\ue80D"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/boda-diorvi.png",
+            "ascent": 107,
+            "height": 107,
+            "chars": ["\ue80E"]
         }
     ]
 }
