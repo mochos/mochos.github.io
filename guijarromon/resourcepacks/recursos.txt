@@ -36,11 +36,6 @@ Ceitiles
 Carga explosiva
   /give lorspi minecraft:snowball{CustomModelData:100,display:{Name:'["",{"text":"Carga explosiva","italic":false,"bold":true,"color":"gray"}]',Lore:['["",{"text":"Al impactar produce una explosión de aire","italic":false,"color":"white"}]','["",{"text":"que empuja a todas las criaturas cercanas","italic":false,"color":"white"}]']}}
 
-Pan de masa madre
-  /give lorspi minecraft:phantom_membrane{CustomModelData:100,display:{Name:'["",{"text":"Masa madre","italic":false,"color":"yellow"}]'}}
-  /give lorspi minecraft:bread{CustomModelData:101,display:{Name:'["",{"text":"Pan de masa madre crudo","italic":false,"color":"yellow"}]'}}
-  /give lorspi minecraft:bread{CustomModelData:102,display:{Name:'["",{"text":"Pan de masa madre","italic":false,"bold":true,"color":"yellow"}]'}}
-
 Items OP
   /give lorspi minecraft:diamond_pickaxe{CustomModelData:100,display:{Name:'["",{"text":"Instaminador","italic":false,"color":"blue","bold":true}]',Lore:['["",{"text":"Rompe un radio de 3x3 bloques","italic":false,"color":"white"}]','["",{"text":"No reparable - No encantable","italic":false,"color":"red"}]']}}
   
@@ -51,8 +46,12 @@ Items OP
 Orejitas de diorvi
   /give lorspi minecraft:carved_pumpkin{CustomModelData:100,display:{Name:'["",{"text":"Orejitas de diorvi","italic":false,"color":"aqua"}]'}}
 
-Sombreros pokemon (102 a 106) (En proceso: Corregir tamaños en los modelos y rutas relativas)
-  /give lorspi minecraft:carved_pumpkin{CustomModelData:102,display:{Name:'["",{"text":"________","italic":false,"color":"aqua"}]'}}
+Sombreros pokemon
+  /give lorspi minecraft:carved_pumpkin{CustomModelData:102,display:{Name:'["",{"text":"Sombrero Bonsly","italic":false,"color":"aqua"}]'}}
+  /give lorspi minecraft:carved_pumpkin{CustomModelData:103,display:{Name:'["",{"text":"Gorro Gengar","italic":false,"color":"aqua"}]'}}
+  /give lorspi minecraft:carved_pumpkin{CustomModelData:104,display:{Name:'["",{"text":"Sombrero Magikarp","italic":false,"color":"aqua"}]'}}
+  /give lorspi minecraft:carved_pumpkin{CustomModelData:105,display:{Name:'["",{"text":"Sombrero Pikachu","italic":false,"color":"aqua"}]'}}
+  /give lorspi minecraft:carved_pumpkin{CustomModelData:106,display:{Name:'["",{"text":"Sombrero Psyduck","italic":false,"color":"aqua"}]'}}
 
 Torta de matrimonio
   /give lorspi minecraft:carved_pumpkin{CustomModelData:101,display:{Name:'["",{"text":" ","italic":false,"color":"aqua"}]'}}
@@ -65,13 +64,19 @@ Girasoles decorativos
   /give lorspi minecraft:sunflower{CustomModelData:101}
   /give lorspi minecraft:sunflower{CustomModelData:102}
 
-Sustancias (Sin terminar)
-  /give lorspi bread{CustomModelData:103}
-  /give lorspi minecraft:potion{CustomModelData:100}
-  /give lorspi minecraft:potion{CustomModelData:101}
-  /give lorspi minecraft:potion{CustomModelData:102}
-  /give lorspi minecraft:potion{CustomModelData:103}
-  /give lorspi minecraft:potion{CustomModelData:104}
+Sustancias y comidas (Sin terminar)
+  /give @p minecraft:bread{CustomModelData:103,Enchantments:[{id:"minecraft:unbreaking",lvl:10s}],HideFlags:1,display:{Lore:['{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"No te confíes. No pega rápido."}],"text":""}'],Name:'{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Happy brownie"}],"text":""}'}} 1
+  /give @p minecraft:potion{CustomModelData:100,CustomPotionColor:16777215,HideFlags:32,Potion:"minecraft:empty",display:{Name:'{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Aguardiente"}],"text":""}'}} 1
+  /give @p minecraft:potion{CustomModelData:101,CustomPotionColor:16777215,HideFlags:32,Potion:"minecraft:empty",display:{Name:'{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Cerveza"}],"text":""}'}} 1
+  /give @p minecraft:potion{CustomModelData:102,CustomPotionColor:16777215,HideFlags:32,Potion:"minecraft:empty",display:{Name:'{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Cubalibre"}],"text":""}'}} 1
+  /give @p minecraft:potion{CustomModelData:103,CustomPotionColor:16777215,HideFlags:32,Potion:"minecraft:empty",display:{Name:'{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Vino"}],"text":""}'}} 1
+  /give @p minecraft:potion{CustomModelData:104,CustomPotionColor:16777215,HideFlags:32,Potion:"minecraft:empty",display:{Name:'{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Vodka"}],"text":""}'}} 1
+  /give @p minecraft:cooked_chicken{CustomModelData:100,display:{Lore:['{"extra":[{"italic":false,"color":"red","text":"¡No apto para sensibles!"}],"text":""}'],Name:'{"extra":[{"bold":false,"italic":false,"color":"gold","text":"🔥🔥 Alita picante 🔥🔥"}],"text":""}'}} 1
+
+Pan de masa madre
+  /give lorspi minecraft:phantom_membrane{CustomModelData:100,display:{Name:'["",{"text":"Masa madre","italic":false,"color":"yellow"}]'}}
+  /give lorspi minecraft:bread{CustomModelData:101,display:{Name:'["",{"text":"Pan de masa madre crudo","italic":false,"color":"yellow"}]'}}
+  /give lorspi minecraft:bread{CustomModelData:102,display:{Name:'["",{"text":"Pan de masa madre","italic":false,"bold":true,"color":"yellow"}]'}}
 
 Inyecciones y cartuchos
   /give lorspi minecraft:golden_apple{CustomModelData:100,display:{Name:'["",{"text":"Inyección de salud","italic":false,"color":"red","bold":true}]',Lore:['["",{"text":"Recupera 5 corazones","italic":false,"color":"white"}]','["",{"text":"Revive a un compañero caído","italic":false,"color":"white"}]','["",{"text":"Clic derecho para usar","italic":false,"color":"gray"}]']}}
@@ -100,7 +105,7 @@ CONFIGURACIÓN DEL SERVIDOR
 server.properties
 
 require-resource-pack=true
-resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.26.zip
+resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.27.zip
 
 TITULO DE SALIDA WORLDGUARD
 
