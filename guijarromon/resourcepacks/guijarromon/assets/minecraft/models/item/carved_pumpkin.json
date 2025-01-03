@@ -17,6 +17,8 @@
   {"predicate": {"custom_model_data":103}, "model": "block/gengar_beanie"},
   {"predicate": {"custom_model_data":104}, "model": "block/magikarp_hat"},
   {"predicate": {"custom_model_data":105}, "model": "block/pikachu_hat"},
-  {"predicate": {"custom_model_data":106}, "model": "block/psyduck_hat"}
+  {"predicate": {"custom_model_data":106}, "model": "block/psyduck_hat"},
+  {"predicate": {"custom_model_data":107}, "model": "block/rata-negra"},
+  {"predicate": {"custom_model_data":108}, "model": "block/cajero"}
  ]
 }

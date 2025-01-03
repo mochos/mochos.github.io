@@ -53,6 +53,10 @@ Sombreros pokemon
   /give lorspi minecraft:carved_pumpkin{CustomModelData:105,display:{Name:'["",{"text":"Sombrero Pikachu","italic":false,"color":"aqua"}]'}}
   /give lorspi minecraft:carved_pumpkin{CustomModelData:106,display:{Name:'["",{"text":"Sombrero Psyduck","italic":false,"color":"aqua"}]'}}
 
+Cosméticos decorativos / funcionales
+  /give @p minecraft:carved_pumpkin{CustomModelData:107,display:{Name:'{"extra":[{"italic":false,"color":"gray","text":"Chefsito"}],"text":""}'}} 1
+  /give @p minecraft:carved_pumpkin{CustomModelData:108,display:{Name:'{"extra":[{"italic":false,"color":"white","text":"Cajero"}],"text":""}'}} 1
+
 Torta de matrimonio
   /give lorspi minecraft:carved_pumpkin{CustomModelData:101,display:{Name:'["",{"text":" ","italic":false,"color":"aqua"}]'}}
 
@@ -105,7 +109,7 @@ CONFIGURACIÓN DEL SERVIDOR
 server.properties
 
 require-resource-pack=true
-resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.27.zip
+resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.28.zip
 
 TITULO DE SALIDA WORLDGUARD
 
