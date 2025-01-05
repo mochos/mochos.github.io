@@ -104,6 +104,69 @@
             "ascent": 107,
             "height": 107,
             "chars": ["\ue80E"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/original.png",
+            "ascent": 10,
+            "height": 10,
+            "chars": ["\uE810"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/duplicado.png",
+            "ascent": 10,
+            "height": 10,
+            "chars": ["\uE811"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/sin_asignar.png",
+            "ascent": 10,
+            "height": 10,
+            "chars": ["\uE812"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/trofeo_oro.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE813"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/trofeo_plata.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE814"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/trofeo_bronce.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE815"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/puesto_oro.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE816"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/puesto_plata.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE817"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/puesto_bronce.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE818"]
         }
     ]
 }
