@@ -52,6 +52,9 @@ Items OP
   
   /give lorspi minecraft:diamond_axe{CustomModelData:100,display:{Name:'["",{"text":"Brisa tempestuosa","italic":false,"color":"dark_aqua","bold":true}]',Lore:['["",{"text":"Evita el daño por caída desde alturas no letales","italic":false,"color":"white"}]','["",{"text":"Infringe más daño al atacar en caída","italic":false,"color":"white"}]','["",{"text":"Úsala para impulsarte hacia arriba","italic":false,"color":"white"}]','["",{"text":"No reparable - No encantable","italic":false,"color":"red"}]']}}
 
+Formato de medalla
+  /give @p cobblebadges:the_rainbow_badge{Medalla:0,display:{Lore:['{"extra":[{"italic":false,"color":"white","text":""}],"text":""}','{"extra":[{"italic":false,"color":"red","text":"ɴᴏ ᴠᴀʟᴇ ᴘᴀʀᴀ ᴘᴀʀᴛɪᴄɪᴘᴀʀ ᴇɴ ᴛᴏʀɴᴇᴏѕ"}],"text":""}'],Name:'{"extra":[{"bold":true,"italic":false,"color":"yellow","text":"Medalla Arcoiris"}],"text":""}'}} 1
+
 Orejitas de diorvi
   /give lorspi minecraft:carved_pumpkin{CustomModelData:100,display:{Name:'["",{"text":"Orejitas de diorvi","italic":false,"color":"aqua"}]'}}
 
