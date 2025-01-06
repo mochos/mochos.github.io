@@ -167,6 +167,20 @@
             "ascent": 8,
             "height": 8,
             "chars": ["\uE818"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/liga.png",
+            "ascent": 77,
+            "height": 77,
+            "chars": ["\uE819"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/liga.png",
+            "ascent": 35,
+            "height": 35,
+            "chars": ["\uE81A"]
         }
     ]
 }
