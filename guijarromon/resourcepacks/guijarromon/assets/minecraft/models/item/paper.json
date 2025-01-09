@@ -57,6 +57,18 @@
         "custom_model_data": 109
       },
       "model": "minecraft:item/xpempty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 110
+      },
+      "model": "minecraft:item/aurora_peluche"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 111
+      },
+      "model": "minecraft:item/copa_guijarro"
     }
   ]
 }
