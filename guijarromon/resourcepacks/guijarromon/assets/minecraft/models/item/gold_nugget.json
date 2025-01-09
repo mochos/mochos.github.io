@@ -27,6 +27,12 @@
         "custom_model_data": 103
       },
       "model": "minecraft:block/pila_ceitiles_3d"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 111
+      },
+      "model": "minecraft:item/copa_guijarro"
     }
   ]
 }
