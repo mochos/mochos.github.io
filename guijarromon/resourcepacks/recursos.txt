@@ -15,7 +15,7 @@ CARACTERES
  = Twitch
  = Logo normal peque
  = YouTube
- = Telegram chat
+💬 = Telegram chat
  = Sacerdote
  = Imagen boda diorvi
 
@@ -129,7 +129,7 @@ CONFIGURACIÓN DEL SERVIDOR
 server.properties
 
 require-resource-pack=true
-resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.32.zip
+resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.33.zip
 
 TITULO DE SALIDA WORLDGUARD
 

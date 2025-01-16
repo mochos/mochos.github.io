@@ -33,6 +33,12 @@
         "custom_model_data": 111
       },
       "model": "minecraft:item/copa_guijarro"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 112
+      },
+      "model": "minecraft:item/rtp"
     }
   ]
 }
