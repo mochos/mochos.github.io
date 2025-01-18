@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"14": "block/psyduck_hat"
+		"14": "simplehats:block/psyduck_hat"
 	},
 	"elements": [
 		{

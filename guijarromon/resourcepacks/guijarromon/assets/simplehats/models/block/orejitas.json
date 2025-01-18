@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/orejitas",
-		"particle": "block/orejitas"
+		"0": "simplehats:block/orejitas",
+		"particle": "simplehats:block/orejitas"
 	},
 	"elements": [
 		{
