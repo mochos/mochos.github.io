@@ -1,0 +1,14 @@
+{
+    "parent": "block/end_rod",
+    "textures": {
+        "layer0": "block/end_rod"
+    },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 112
+      },
+      "model": "minecraft:item/vizla"
+    }
+  ]
+}
