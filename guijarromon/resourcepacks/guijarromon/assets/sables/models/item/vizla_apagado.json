@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "lightsabers:item/lightsaber_vizsla",
+	"parent": "sables:item/lightsaber_vizsla",
 	"textures": {
-		"1": "item/lightsaber_vizsla",
-		"particle": "item/lightsaber_vizsla"
+		"1": "sables:item/lightsaber_vizsla",
+		"particle": "sables:item/lightsaber_vizsla"
 	},
 	"elements": [
 		{

@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "lightsabers:item/lightsaber_vizsla",
+	"parent": "sables:item/sables/lightsaber_vizsla",
 	"textures": {
-		"0": "item/overlay_black",
-		"1": "item/lightsaber_vizsla",
-		"particle": "item/lightsaber_vizsla"
+		"0": "sables:item/overlay_black",
+		"1": "sables:item/lightsaber_vizsla",
+		"particle": "sables:item/lightsaber_vizsla"
 	},
 	"elements": [
 		{

@@ -1,0 +1,29 @@
+{
+	"dark_on":
+	{
+		"master": "",
+		"sounds":
+		[
+			{"name": "sables:dark_on", "stream": true}
+		]
+	},
+	"dark_off":
+	{
+		"master": "",
+		"sounds":
+		[
+			{"name": "sables:dark_off", "stream": true}
+		]
+	},
+	"hit":
+	{
+		"master": "",
+		"sounds":
+		[
+			{"name": "sables:hit1", "stream": true},
+			{"name": "sables:hit2", "stream": true},
+			{"name": "sables:hit3", "stream": true},
+			{"name": "sables:hit4", "stream": true}
+		]
+	}
+}
