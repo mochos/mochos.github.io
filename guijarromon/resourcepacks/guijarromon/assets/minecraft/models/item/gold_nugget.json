@@ -39,6 +39,12 @@
         "custom_model_data": 112
       },
       "model": "minecraft:item/rtp"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 113
+      },
+      "model": "minecraft:item/copa_guijarro_gigante"
     }
   ]
 }
