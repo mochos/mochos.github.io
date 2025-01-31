@@ -15,6 +15,24 @@
         "custom_model_data": 101
       },
       "model": "cobblebadges:item/the_thunder_badge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 102
+      },
+      "model": "cobblebadges:item/the_glacier_badge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 103
+      },
+      "model": "cobblebadges:item/the_plant_badge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 104
+      },
+      "model": "cobblebadges:item/the_dragon_badge"
     }
   ]
 }
