@@ -114,61 +114,6 @@
 				"up": {"uv": [0, 2, 0, 0], "texture": "#0"},
 				"down": {"uv": [0, 0, 0, 2], "texture": "#0"}
 			}
-		},
-		{
-			"name": "bangL",
-			"from": [3.5, -5.5, 5.1],
-			"to": [6.5, 0, 5.1],
-			"rotation": {"angle": 0, "axis": "y", "origin": [5.5, 0, 5]},
-			"faces": {
-				"north": {"uv": [10, 0, 11.5, 2.75], "texture": "#0"},
-				"east": {"uv": [0, 0, 0, 2.75], "texture": "#0"},
-				"south": {"uv": [10, 3, 11.5, 5.75], "texture": "#0"},
-				"west": {"uv": [0, 0, 0, 2.75], "texture": "#0"},
-				"up": {"uv": [1.5, 0, 0, 0], "texture": "#0"},
-				"down": {"uv": [1.5, 0, 0, 0], "texture": "#0"}
-			}
-		},
-		{
-			"name": "bangR",
-			"from": [9.5, -5.5, 5.1],
-			"to": [12.5, 0, 5.1],
-			"rotation": {"angle": 0, "axis": "y", "origin": [10.5, 0, 5]},
-			"faces": {
-				"north": {"uv": [4.5, 10, 6, 12.75], "texture": "#0"},
-				"east": {"uv": [0, 0, 0, 2.75], "texture": "#0"},
-				"south": {"uv": [6, 10, 7.5, 12.75], "texture": "#0"},
-				"west": {"uv": [0, 0, 0, 2.75], "texture": "#0"},
-				"up": {"uv": [1.5, 0, 0, 0], "texture": "#0"},
-				"down": {"uv": [1.5, 0, 0, 0], "texture": "#0"}
-			}
-		},
-		{
-			"name": "hair1",
-			"from": [4, -5, 10.85],
-			"to": [12, 0, 10.85],
-			"faces": {
-				"north": {"uv": [0, 0, 4, 2.5], "texture": "#0"},
-				"east": {"uv": [0, 0, 0, 2.5], "texture": "#0"},
-				"south": {"uv": [0, 2.5, 4, 5], "texture": "#0"},
-				"west": {"uv": [0, 0, 0, 2.5], "texture": "#0"},
-				"up": {"uv": [4, 0, 0, 0], "texture": "#0"},
-				"down": {"uv": [4, 0, 0, 0], "texture": "#0"}
-			}
-		},
-		{
-			"name": "hair2",
-			"from": [4, -8.48125, 10.84627],
-			"to": [12, -4.98125, 10.84627],
-			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, -4.98125, 10.89627]},
-			"faces": {
-				"north": {"uv": [0, 5, 4, 6.75], "texture": "#0"},
-				"east": {"uv": [0, 0, 0, 1.75], "texture": "#0"},
-				"south": {"uv": [4, 6, 8, 7.75], "texture": "#0"},
-				"west": {"uv": [0, 0, 0, 1.75], "texture": "#0"},
-				"up": {"uv": [4, 0, 0, 0], "texture": "#0"},
-				"down": {"uv": [4, 0, 0, 0], "texture": "#0"}
-			}
 		}
 	],
 	"display": {
@@ -202,8 +147,8 @@
 			"scale": [0.85, 0.85, 0.85]
 		},
 		"head": {
-			"translation": [0, 18.75, 0],
-			"scale": [2.3, 2.3, 2.3]
+			"translation": [0, 19.75, 0],
+			"scale": [2.41, 2.41, 2.41]
 		},
 		"fixed": {
 			"rotation": [-90, 0, 0],
@@ -228,7 +173,7 @@
 			"name": "Hair",
 			"origin": [8, -4.98125, 10.89627],
 			"color": 0,
-			"children": [8, 9, 10, 11]
+			"children": []
 		}
 	]
 }

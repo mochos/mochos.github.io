@@ -7,20 +7,6 @@
 	},
 	"elements": [
 		{
-			"name": "hair",
-			"from": [8.19836, -3.5, 3.90495],
-			"to": [15.69836, 4, 3.90495],
-			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 0, 4]},
-			"faces": {
-				"north": {"uv": [4, 0, 7.75, 3.75], "texture": "#0"},
-				"east": {"uv": [0, 0, 0, 3.75], "texture": "#0"},
-				"south": {"uv": [4, 4, 7.75, 7.75], "texture": "#0"},
-				"west": {"uv": [0, 0, 0, 3.75], "texture": "#0"},
-				"up": {"uv": [3.75, 0, 0, 0], "texture": "#0"},
-				"down": {"uv": [3.75, 0, 0, 0], "texture": "#0"}
-			}
-		},
-		{
 			"name": "hat_base",
 			"from": [4, 2, 4],
 			"to": [12, 5, 12],
@@ -152,8 +138,8 @@
 		},
 		"head": {
 			"rotation": [4.75, 0, 0],
-			"translation": [0, 13.5, 1],
-			"scale": [1.7, 1.7, 1.7]
+			"translation": [0, 15.75, 1],
+			"scale": [1.9, 1.9, 1.9]
 		},
 		"fixed": {
 			"rotation": [0, 90, 0],

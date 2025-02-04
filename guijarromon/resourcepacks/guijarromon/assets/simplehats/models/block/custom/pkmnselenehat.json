@@ -103,48 +103,6 @@
 				"up": {"uv": [14.5, 6, 13, 4], "texture": "#0"},
 				"down": {"uv": [14.5, 6, 13, 8], "texture": "#0"}
 			}
-		},
-		{
-			"name": "bangs",
-			"from": [4.75, 0.75, 4.75],
-			"to": [11.25, 5.25, 4.75],
-			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 5.25, 4.75]},
-			"faces": {
-				"north": {"uv": [6, 8, 9.25, 10.25], "texture": "#0"},
-				"east": {"uv": [0, 0, 0, 2.25], "texture": "#0"},
-				"south": {"uv": [9.5, 0, 12.75, 2.25], "texture": "#0"},
-				"west": {"uv": [0, 0, 0, 2.25], "texture": "#0"},
-				"up": {"uv": [3.25, 0, 0, 0], "texture": "#0"},
-				"down": {"uv": [3.25, 0, 0, 0], "texture": "#0"}
-			}
-		},
-		{
-			"name": "hairL",
-			"from": [10.4, -1.75, 5.25],
-			"to": [14.4, 5.5, 5.25],
-			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 4.5, 4]},
-			"faces": {
-				"north": {"uv": [2, 8, 4, 11.75], "texture": "#0"},
-				"east": {"uv": [0, 0, 0, 3.75], "texture": "#0"},
-				"south": {"uv": [4, 8, 6, 11.75], "texture": "#0"},
-				"west": {"uv": [0, 0, 0, 3.75], "texture": "#0"},
-				"up": {"uv": [2, 0, 0, 0], "texture": "#0"},
-				"down": {"uv": [2, 0, 0, 0], "texture": "#0"}
-			}
-		},
-		{
-			"name": "hairR",
-			"from": [1.6, -1.75, 5.25],
-			"to": [5.6, 5.5, 5.25],
-			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 4.5, 4]},
-			"faces": {
-				"north": {"uv": [0, 7, 2, 10.75], "texture": "#0"},
-				"east": {"uv": [0, 0, 0, 3.75], "texture": "#0"},
-				"south": {"uv": [7.5, 0, 9.5, 3.75], "texture": "#0"},
-				"west": {"uv": [0, 0, 0, 3.75], "texture": "#0"},
-				"up": {"uv": [2, 0, 0, 0], "texture": "#0"},
-				"down": {"uv": [2, 0, 0, 0], "texture": "#0"}
-			}
 		}
 	],
 	"display": {
@@ -179,8 +137,8 @@
 		},
 		"head": {
 			"rotation": [29.25, 0, 0],
-			"translation": [0, 7, 2.75],
-			"scale": [2.2, 2.2, 2.2]
+			"translation": [0, 7, 1.75],
+			"scale": [2.28, 2.28, 2.28]
 		},
 		"fixed": {
 			"rotation": [-90, 0, 0],
@@ -199,7 +157,7 @@
 			"name": "hair",
 			"origin": [8, 4.5, 12],
 			"color": 0,
-			"children": [7, 8, 9]
+			"children": []
 		}
 	]
 }
