@@ -82,6 +82,7 @@
   {"predicate": {"custom_model_data":104}, "model": "simplehats:block/pikachu_hat"},
   {"predicate": {"custom_model_data":105}, "model": "simplehats:block/psyduck_hat"},
   {"predicate": {"custom_model_data":106}, "model": "simplehats:block/rata-negra"},
+  {"predicate": {"custom_model_data":107}, "model": "simplehats:block/togepi_hat"},
   {"predicate": {"custom_model_data":2000}, "model": "simplehats:block/custom/redhat"},
   {"predicate": {"custom_model_data":2001}, "model": "simplehats:block/custom/leafhat"},
   {"predicate": {"custom_model_data":2002}, "model": "simplehats:block/custom/goldhat"},
@@ -110,6 +111,5 @@
   {"predicate": {"custom_model_data":2025}, "model": "simplehats:block/eevee/sylveon_hat"},
   {"predicate": {"custom_model_data":2025}, "model": "simplehats:block/eevee/umbreon_hat"},
   {"predicate": {"custom_model_data":2026}, "model": "simplehats:block/eevee/vaporeon_hat"}
-
  ]
 }
