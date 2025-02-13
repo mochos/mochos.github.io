@@ -69,6 +69,30 @@
         "custom_model_data": 111
       },
       "model": "minecraft:item/copa_guijarro"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 112
+      },
+      "model": "minecraft:item/play"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 113
+      },
+      "model": "minecraft:item/stop"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 114
+      },
+      "model": "minecraft:block/macbook"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 115
+      },
+      "model": "minecraft:block/pc"
     }
   ]
 }
