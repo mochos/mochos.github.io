@@ -33,6 +33,12 @@
         "custom_model_data": 104
       },
       "model": "cobblebadges:item/the_dragon_badge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 105
+      },
+      "model": "cobblebadges:item/the_jet_badge"
     }
   ]
 }
