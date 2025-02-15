@@ -181,6 +181,20 @@
             "ascent": 35,
             "height": 35,
             "chars": ["\uE81A"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/right_click.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\uE81B"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/left_click.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\uE81C"]
         }
     ]
 }

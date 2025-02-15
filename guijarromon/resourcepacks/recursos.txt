@@ -32,6 +32,9 @@ CARACTERES
  = Liga
  = Liga peque
 
+ = Clic derecho
+ = Clic izquierdo
+
 Convertir a UTF-16
 https://www.coderstool.com/unicode-text-converter
 
@@ -129,7 +132,7 @@ CONFIGURACIÓN DEL SERVIDOR
 server.properties
 
 require-resource-pack=true
-resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.44.zip
+resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.45.zip
 
 TITULO DE SALIDA WORLDGUARD
 
