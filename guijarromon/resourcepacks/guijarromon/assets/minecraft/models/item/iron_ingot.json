@@ -39,6 +39,24 @@
         "custom_model_data": 105
       },
       "model": "cobblebadges:item/the_jet_badge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 106
+      },
+      "model": "cobblebadges:item/the_heat_badge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 107
+      },
+      "model": "cobblebadges:item/the_relic_badge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 108
+      },
+      "model": "cobblebadges:item/the_bolt_badge"
     }
   ]
 }
