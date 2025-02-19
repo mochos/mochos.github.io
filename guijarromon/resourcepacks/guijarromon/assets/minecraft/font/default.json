@@ -108,22 +108,22 @@
         {
             "type": "bitmap",
             "file": "minecraft:misc/original.png",
-            "ascent": 10,
-            "height": 10,
+            "ascent": 9,
+            "height": 9,
             "chars": ["\uE810"]
         },
         {
             "type": "bitmap",
             "file": "minecraft:misc/duplicado.png",
-            "ascent": 10,
-            "height": 10,
+            "ascent": 9,
+            "height": 9,
             "chars": ["\uE811"]
         },
         {
             "type": "bitmap",
             "file": "minecraft:misc/sin_asignar.png",
-            "ascent": 10,
-            "height": 10,
+            "ascent": 9,
+            "height": 9,
             "chars": ["\uE812"]
         },
         {
@@ -199,9 +199,16 @@
         {
             "type": "bitmap",
             "file": "minecraft:misc/exclusivo.png",
-            "ascent": 10,
-            "height": 10,
+            "ascent": 9,
+            "height": 9,
             "chars": ["\uE81D"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/especial.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE81E"]
         }
     ]
 }
