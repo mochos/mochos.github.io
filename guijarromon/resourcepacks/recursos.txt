@@ -129,14 +129,6 @@ Matrimonio
   /give lorspi minecraft:amethyst_shard{CustomModelData:100,display:{Name:'["",{"text":"Anillo de compromiso","italic":false,"color":"aqua","bold":true}]',Lore:['["",{"text":"Úsalo para comprometerte tu pareja","italic":false,"color":"white"}]','["",{"text":"Prepara tu boda y busca un cura para casarte","italic":false,"color":"white"}]']}}
   /give lorspi minecraft:amethyst_shard{CustomModelData:101,display:{Name:'["",{"text":"Anillo de matrimonio","italic":false,"color":"light_purple","bold":true}]'}}
 
-
-
-CONFIGURACIÓN DEL SERVIDOR
-server.properties
-
-require-resource-pack=true
-resource-pack=https\://github.com/mochos/mochos.github.io/raw/refs/heads/main/guijarromon/resourcepacks/guijarromon1.48.zip
-
 TITULO DE SALIDA WORLDGUARD
 
 /rg flag -w "Semilla nuevo" -h 5 spawn farewell-title &c&lSaliendo de Cobbled Farms\n&cTu vida está fuera de protección
