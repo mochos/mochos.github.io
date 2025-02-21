@@ -84,6 +84,9 @@
   {"predicate": {"custom_model_data":106}, "model": "simplehats:block/rata-negra"},
   {"predicate": {"custom_model_data":107}, "model": "simplehats:block/togepi_hat"},
   {"predicate": {"custom_model_data":108}, "model": "simplehats:block/dragonite_hat"},
+  {"predicate": {"custom_model_data":109}, "model": "simplehats:block/furret_hat"},
+  {"predicate": {"custom_model_data":110}, "model": "simplehats:block/mimikyu_hat"},
+  {"predicate": {"custom_model_data":111}, "model": "simplehats:block/weezing_hat"},
   {"predicate": {"custom_model_data":2000}, "model": "simplehats:block/custom/redhat"},
   {"predicate": {"custom_model_data":2001}, "model": "simplehats:block/custom/leafhat"},
   {"predicate": {"custom_model_data":2002}, "model": "simplehats:block/custom/goldhat"},
@@ -110,7 +113,7 @@
   {"predicate": {"custom_model_data":2023}, "model": "simplehats:block/eevee/jolteon_hat"},
   {"predicate": {"custom_model_data":2024}, "model": "simplehats:block/eevee/leafeon_hat"},
   {"predicate": {"custom_model_data":2025}, "model": "simplehats:block/eevee/sylveon_hat"},
-  {"predicate": {"custom_model_data":2025}, "model": "simplehats:block/eevee/umbreon_hat"},
-  {"predicate": {"custom_model_data":2026}, "model": "simplehats:block/eevee/vaporeon_hat"}
+  {"predicate": {"custom_model_data":2026}, "model": "simplehats:block/eevee/umbreon_hat"},
+  {"predicate": {"custom_model_data":2027}, "model": "simplehats:block/eevee/vaporeon_hat"}
  ]
 }
