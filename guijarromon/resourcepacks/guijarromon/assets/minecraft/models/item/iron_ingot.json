@@ -57,6 +57,18 @@
         "custom_model_data": 108
       },
       "model": "cobblebadges:item/the_bolt_badge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 109
+      },
+      "model": "cobblebadges:item/the_mind_badge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 110
+      },
+      "model": "cobblebadges:item/the_rock_badge"
     }
   ]
 }
