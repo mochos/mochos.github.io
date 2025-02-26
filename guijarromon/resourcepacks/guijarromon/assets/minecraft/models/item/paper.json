@@ -93,6 +93,12 @@
         "custom_model_data": 115
       },
       "model": "minecraft:block/pc"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 116
+      },
+      "model": "minecraft:block/logo-liga"
     }
   ]
 }
