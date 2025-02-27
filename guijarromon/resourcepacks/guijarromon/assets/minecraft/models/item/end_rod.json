@@ -9,6 +9,12 @@
           "custom_model_data": 100
         },
         "model": "sables:item/vizla"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 101
+        },
+        "model": "minecraft:block/llave_vacio"
       }
     ]
 }
