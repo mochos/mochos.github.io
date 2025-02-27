@@ -69,6 +69,12 @@
         "custom_model_data": 110
       },
       "model": "cobblebadges:item/the_rock_badge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 111
+      },
+      "model": "cobblebadges:item/the_fighting_badge"
     }
   ]
 }
