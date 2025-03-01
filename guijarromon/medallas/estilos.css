@@ -78,7 +78,9 @@ td.medallas img {
 }
 td.medallas img a {
     margin-top: 8px;
-    text-decoration: none;
+}
+.medallas a {
+    text-decoration: none !important;
 }
 tr:nth-child(even) {background-color: #272727;}
 table, td { width:500px }
