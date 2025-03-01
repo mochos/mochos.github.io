@@ -61,9 +61,13 @@
 }
 td {
   text-align: left;
-  padding: 0 4px;
+  padding: 0 8px;
 }
 td.entrenador {
+  font-weight: bold;
+  width: 50%;
+}
+td.gimnasio {
   font-weight: bold;
   width: 50%;
 }
@@ -72,5 +76,23 @@ td.medallas {
 td.medallas img {
     margin-top: 8px;
 }
+td.medallas img a {
+    margin-top: 8px;
+    text-decoration: none;
+}
 tr:nth-child(even) {background-color: #272727;}
-table, td {}
+table, td { width:500px }
+
+entrenador {
+  display: block;
+  text-align: left;
+  padding: 4px 0;
+}
+medallas {
+  text-align: left;
+  color: yellow;
+}
+
+td.gimnasio medallas {
+  display: block;
+}
