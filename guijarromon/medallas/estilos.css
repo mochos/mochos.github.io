@@ -123,12 +123,15 @@ td.gimnasio medallas {
 .info3{
     text-align: right;
 }
+/*body { cursor: url({{ url_for('static', filename='img/cursor.png') }}) , default !important;
+
+        }*/
 /*cursor: url(https://cdn.custom-cursor.com/db/13573/32/minimal-pikachu-pointer.png)   , pointer !important*/
 /*cursor: url(https://cdn.custom-cursor.com/db/13574/32/minimal-pikachu-cursor.png) , default !important*/
 
 div#entrenadores, div#gimnasios {
     max-width: 85%;
-    overflow: scroll;
+    overflow-x: auto;
     padding: 16px;
     width: 600px;
     overflow-y: hidden;
