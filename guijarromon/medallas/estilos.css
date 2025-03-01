@@ -100,6 +100,7 @@ td.gimnasio medallas {
 }
 
 .info2 {
+    display: none;
     background-color: #2f2f2f;
     color: #aaaaaa;
     align-items: center;
