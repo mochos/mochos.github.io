@@ -130,4 +130,6 @@ div#entrenadores, div#gimnasios {
     max-width: 85%;
     overflow: scroll;
     padding: 16px;
+    width: 600px;
+    overflow-y: hidden;
 }
