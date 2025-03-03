@@ -105,6 +105,18 @@
         "custom_model_data": 117
       },
       "model": "minecraft:block/logo-guijarro"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 118
+      },
+      "model": "minecraft:block/altar_vacio"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 119
+      },
+      "model": "minecraft:block/slot_machine"
     }
   ]
 }
