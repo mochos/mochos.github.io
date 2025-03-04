@@ -117,6 +117,30 @@
         "custom_model_data": 119
       },
       "model": "minecraft:block/slot_machine"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1005
+      },
+      "model": "minecraft:item/ficha_5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1020
+      },
+      "model": "minecraft:item/ficha_20"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1100
+      },
+      "model": "minecraft:item/ficha_100"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1500
+      },
+      "model": "minecraft:item/ficha_500"
     }
   ]
 }
