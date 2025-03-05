@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "block/barrier",
-		"particle": "block/barrier"
+		"0": "block/const_barrier",
+		"particle": "block/const_barrier"
 	},
 	"elements": [
 		{
