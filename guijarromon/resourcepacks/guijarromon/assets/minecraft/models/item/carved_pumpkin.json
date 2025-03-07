@@ -12,6 +12,7 @@
  
  "overrides": [
   {"predicate": {"custom_model_data":101}, "model": "block/torta"},
+  {"predicate": {"custom_model_data":102}, "model": "block/torta_v2"},
   {"predicate": {"custom_model_data":108}, "model": "block/cajero"}
  ]
 }

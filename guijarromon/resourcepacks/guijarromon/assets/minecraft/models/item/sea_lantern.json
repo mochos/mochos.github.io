@@ -1,0 +1,11 @@
+{
+    "parent": "block/sea_lantern",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 100
+      },
+      "model": "minecraft:block/llave_vacio"
+    }
+  ]
+}
