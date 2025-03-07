@@ -156,6 +156,12 @@
     },
     {
       "predicate": {
+        "custom_model_data": 126
+      },
+      "model": "minecraft:block/vending_machine"
+    },
+    {
+      "predicate": {
         "custom_model_data": 1005
       },
       "model": "minecraft:item/ficha_5"
@@ -177,6 +183,12 @@
         "custom_model_data": 1500
       },
       "model": "minecraft:item/ficha_500"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2000
+      },
+      "model": "minecraft:item/ticket"
     }
   ]
 }
