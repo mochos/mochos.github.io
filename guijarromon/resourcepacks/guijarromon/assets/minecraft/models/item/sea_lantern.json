@@ -6,6 +6,12 @@
         "custom_model_data": 100
       },
       "model": "minecraft:block/llave_vacio"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 101
+      },
+      "model": "minecraft:block/burger_sign"
     }
   ]
 }

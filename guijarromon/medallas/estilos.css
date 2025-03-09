@@ -83,7 +83,7 @@ td.medallas img a {
     text-decoration: none !important;
 }
 tr:nth-child(even) {background-color: #272727;}
-table, td { width:500px }
+table, td { width: 100%; }
 
 entrenador {
   display: block;
