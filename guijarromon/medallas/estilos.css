@@ -137,10 +137,10 @@ div#entrenadores, div#gimnasios {
     overflow-y: hidden;
 }
 
-#entrenadores table:before {
+/*#entrenadores table:before {
     content: 'ℹ️ Aun no hay entrenadores con medallas.';
     margin: 32px;
     display: block;
     text-align: center;
     width: 100%;
-}
+}*/
