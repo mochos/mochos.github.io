@@ -75,6 +75,60 @@
         "custom_model_data": 111
       },
       "model": "cobblebadges:item/the_knuckle_badge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3002
+      },
+      "model": "minecraft:block/food_truck"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3006
+      },
+      "model": "minecraft:item/spatula"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3021
+      },
+      "model": "minecraft:block/cocina_estufa"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3022
+      },
+      "model": "minecraft:block/cocina_freidora"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3023
+      },
+      "model": "minecraft:block/cocina_nevecon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3024
+      },
+      "model": "minecraft:block/cocina_nevecon_stickers"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3025
+      },
+      "model": "minecraft:block/cocina_nevera"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3026
+      },
+      "model": "minecraft:block/cocina_nevera_stickers"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3027
+      },
+      "model": "minecraft:block/cocina_parrilla"
     }
   ]
 }

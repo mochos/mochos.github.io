@@ -189,6 +189,42 @@
         "custom_model_data": 2000
       },
       "model": "minecraft:item/ticket"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3000
+      },
+      "model": "minecraft:block/burger_mesa"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3001
+      },
+      "model": "minecraft:block/burger_graffiti"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3003
+      },
+      "model": "minecraft:block/burger_bandeja"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3004
+      },
+      "model": "minecraft:block/burger_bandeja_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3005
+      },
+      "model": "minecraft:block/futbolito"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3011
+      },
+      "model": "minecraft:block/maquina_batidos_1"
     }
   ]
 }
