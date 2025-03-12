@@ -1,0 +1,9 @@
+{
+    "target": "cobblemon:regigigas",
+    "baseScale": 2,
+    "hitbox": {
+      "width": 3,
+      "height": 3,
+      "fixed": false
+    }
+   }

@@ -1,0 +1,408 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.genesect.ground_idle": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"right_thigh": {
+					"rotation": {
+						"0.0": [-42.5, 0, 0],
+						"2.0": [-42.5, 0, 0]
+					}
+				},
+				"lower_right_leg": {
+					"rotation": {
+						"0.0": [55, 0, 0],
+						"2.0": [55, 0, 0]
+					}
+				},
+				"body": {
+					"position": {
+						"0.0": [0, -1.35, 0],
+						"2.0": [0, -1.35, 0]
+					}
+				},
+				"lower_abdomen": {
+					"rotation": {
+						"0.0": [45, 0, 0],
+						"2.0": [45, 0, 0]
+					}
+				},
+				"middle_thorax": {
+					"rotation": {
+						"0.0": [-37.5, 0, 0],
+						"2.0": [-37.5, 0, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": [20, 0, 0],
+						"1.0": [21, 0, 0],
+						"2.0": [20, 0, 0]
+					}
+				},
+				"back_plate": {
+					"rotation": {
+						"0.0": [17.5, 0, 0],
+						"2.0": [17.5, 0, 0]
+					}
+				},
+				"upper_right_arm": {
+					"rotation": {
+						"0.0": [-34.61432, 41.92831, -24.75948],
+						"1.0": [-34.11464, 41.10283, -24.00564],
+						"2.0": [-34.61432, 41.92831, -24.75948]
+					}
+				},
+				"lower_right_arm": {
+					"rotation": {
+						"0.0": [0, 27.5, -42.5],
+						"2.0": [0, 27.5, -42.5]
+					}
+				},
+				"left_thigh": {
+					"rotation": {
+						"0.0": [-42.5, 0, 0],
+						"2.0": [-42.5, 0, 0]
+					}
+				},
+				"lower_left_leg": {
+					"rotation": {
+						"0.0": [55, 0, 0],
+						"2.0": [55, 0, 0]
+					}
+				},
+				"upper_left_arm": {
+					"rotation": {
+						"0.0": [-34.61432, -41.92831, 24.75948],
+						"1.0": [-34.11464, -41.10283, 24.00564],
+						"2.0": [-34.61432, -41.92831, 24.75948]
+					}
+				},
+				"lower_left_arm": {
+					"rotation": {
+						"0.0": [0, -30, 42.5],
+						"2.0": [0, -30, 42.5]
+					}
+				},
+				"right_foot": {
+					"rotation": {
+						"0.0": [-10, 0, 0],
+						"2.0": [-10, 0, 0]
+					}
+				},
+				"left_foot": {
+					"rotation": {
+						"0.0": [-10, 0, 0],
+						"2.0": [-10, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.genesect.faint": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"right_thigh": {
+					"rotation": {
+						"0.0": [-42.5, 0, 0],
+						"2.0": [-42.5, 0, 0]
+					}
+				},
+				"lower_right_leg": {
+					"rotation": {
+						"0.0": [55, 0, 0],
+						"2.0": [55, 0, 0]
+					}
+				},
+				"body": {
+					"position": {
+						"0.0": [0, -1.35, 0],
+						"2.0": [0, -1.35, 0]
+					}
+				},
+				"lower_abdomen": {
+					"rotation": {
+						"0.0": [45, 0, 0],
+						"2.0": [45, 0, 0]
+					}
+				},
+				"middle_thorax": {
+					"rotation": {
+						"0.0": [-37.5, 0, 0],
+						"2.0": [-37.5, 0, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": [20, 0, 0],
+						"1.0": [21, 0, 0],
+						"2.0": [20, 0, 0]
+					}
+				},
+				"back_plate": {
+					"rotation": {
+						"0.0": [17.5, 0, 0],
+						"2.0": [17.5, 0, 0]
+					}
+				},
+				"upper_right_arm": {
+					"rotation": {
+						"0.0": [-34.61432, 41.92831, -24.75948],
+						"1.0": [-34.11464, 41.10283, -24.00564],
+						"2.0": [-34.61432, 41.92831, -24.75948]
+					}
+				},
+				"lower_right_arm": {
+					"rotation": {
+						"0.0": [0, 27.5, -42.5],
+						"2.0": [0, 27.5, -42.5]
+					}
+				},
+				"left_thigh": {
+					"rotation": {
+						"0.0": [-42.5, 0, 0],
+						"2.0": [-42.5, 0, 0]
+					}
+				},
+				"lower_left_leg": {
+					"rotation": {
+						"0.0": [55, 0, 0],
+						"2.0": [55, 0, 0]
+					}
+				},
+				"upper_left_arm": {
+					"rotation": {
+						"0.0": [-34.61432, -41.92831, 24.75948],
+						"1.0": [-34.11464, -41.10283, 24.00564],
+						"2.0": [-34.61432, -41.92831, 24.75948]
+					}
+				},
+				"lower_left_arm": {
+					"rotation": {
+						"0.0": [0, -30, 42.5],
+						"2.0": [0, -30, 42.5]
+					}
+				},
+				"right_foot": {
+					"rotation": {
+						"0.0": [-10, 0, 0],
+						"2.0": [-10, 0, 0]
+					}
+				},
+				"left_foot": {
+					"rotation": {
+						"0.0": [-10, 0, 0],
+						"2.0": [-10, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.genesect.ground_walk": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"right_leg": {
+					"rotation": [0, 0, 0]
+				},
+				"right_thigh": {
+					"rotation": [0, 90, 0],
+					"position": [-1.2, 3, -1]
+				},
+				"lower_right_leg": {
+					"position": [0, 4, 0]
+				},
+				"body": {
+					"rotation": [90, 0, 0],
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, -1, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"abdomen_main": {
+					"rotation": [-45, 0, 0]
+				},
+				"head": {
+					"rotation": [-45, 0, 0],
+					"position": [0, 1, 0.7]
+				},
+				"back_plate": {
+					"rotation": [-65, 0, 0],
+					"position": [-0.1, -0.6, 0.3]
+				},
+				"cannon": {
+					"position": [0, 2, 2.5]
+				},
+				"back_plate_con": {
+					"rotation": [65, 0, 0],
+					"position": [0, 0, 3]
+				},
+				"upper_right_arm": {
+					"rotation": [0, -37.5, -87.5]
+				},
+				"lower_right_arm": {
+					"rotation": [-90, 0, -2.5]
+				},
+				"left_thigh": {
+					"rotation": [0, -90, 0],
+					"position": [1.6, 2.9, -1]
+				},
+				"lower_left_leg": {
+					"rotation": [0, 0, 0],
+					"position": [0, 4, 0]
+				},
+				"upper_left_arm": {
+					"rotation": [0, 37.5, 87.5]
+				},
+				"lower_left_arm": {
+					"rotation": [-90, 0, 2.5]
+				},
+				"right_foot": {
+					"rotation": [90, 0, 0]
+				},
+				"left_foot": {
+					"rotation": [85, 0, 0]
+				},
+				"tail": {
+					"position": [0, 0, -5]
+				}
+			}
+		},
+		"animation.genesect.shoulder_right": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"right_leg": {
+					"rotation": [0, 0, 0]
+				},
+				"right_thigh": {
+					"rotation": [0, 90, 0],
+					"position": [-1.2, 5, -1]
+				},
+				"lower_right_leg": {
+					"position": [0, 4, 0]
+				},
+				"body": {
+					"rotation": [0, 0, 0],
+					"position": [1.6, -21, 1]
+				},
+				"abdomen_main": {
+					"rotation": [-45, 0, 0]
+				},
+				"head": {
+					"rotation": [-45, 0, 0],
+					"position": [0, 1, 0.7]
+				},
+				"back_plate": {
+					"rotation": [-65, 0, 0],
+					"position": [-0.1, -0.6, 0.3]
+				},
+				"cannon": {
+					"position": [0, 2, 2.5]
+				},
+				"back_plate_con": {
+					"rotation": [65, 0, 0],
+					"position": [0, 0, 3]
+				},
+				"upper_right_arm": {
+					"rotation": [0, 45, -87.5]
+				},
+				"lower_right_arm": {
+					"rotation": [-90, -80, -92.5]
+				},
+				"left_thigh": {
+					"rotation": [0, -90, 0],
+					"position": [1.6, 4.9, -0.75]
+				},
+				"lower_left_leg": {
+					"rotation": [0, 0, 0],
+					"position": [0, 4, 0]
+				},
+				"upper_left_arm": {
+					"rotation": [0, -45, 87.5]
+				},
+				"lower_left_arm": {
+					"rotation": [-90, 80, 92.5]
+				},
+				"right_foot": {
+					"rotation": [90, 0, 0]
+				},
+				"left_foot": {
+					"rotation": [85, 0, 0]
+				},
+				"tail": {
+					"position": [0, 0, -5]
+				}
+			}
+		},
+		"animation.genesect.shoulder_left": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"right_leg": {
+					"rotation": [0, 0, 0]
+				},
+				"right_thigh": {
+					"rotation": [0, 90, 0],
+					"position": [-1.2, 5, -1]
+				},
+				"lower_right_leg": {
+					"position": [0, 4, 0]
+				},
+				"body": {
+					"rotation": [0, 0, 0],
+					"position": [-2.6, -21, 1]
+				},
+				"abdomen_main": {
+					"rotation": [-45, 0, 0]
+				},
+				"head": {
+					"rotation": [-45, 0, 0],
+					"position": [0, 1, 0.7]
+				},
+				"back_plate": {
+					"rotation": [-65, 0, 0],
+					"position": [-0.1, -0.6, 0.3]
+				},
+				"cannon": {
+					"position": [0, 2, 2.5]
+				},
+				"back_plate_con": {
+					"rotation": [65, 0, 0],
+					"position": [0, 0, 3]
+				},
+				"upper_right_arm": {
+					"rotation": [0, 45, -87.5]
+				},
+				"lower_right_arm": {
+					"rotation": [-90, -80, -92.5]
+				},
+				"left_thigh": {
+					"rotation": [0, -90, 0],
+					"position": [1.6, 4.9, -0.75]
+				},
+				"lower_left_leg": {
+					"rotation": [0, 0, 0],
+					"position": [0, 4, 0]
+				},
+				"upper_left_arm": {
+					"rotation": [0, -45, 87.5]
+				},
+				"lower_left_arm": {
+					"rotation": [-90, 80, 92.5]
+				},
+				"right_foot": {
+					"rotation": [90, 0, 0]
+				},
+				"left_foot": {
+					"rotation": [85, 0, 0]
+				},
+				"tail": {
+					"position": [0, 0, -5]
+				}
+			}
+		}
+	}
+}
