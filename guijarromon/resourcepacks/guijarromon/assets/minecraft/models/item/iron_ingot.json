@@ -129,6 +129,30 @@
         "custom_model_data": 3027
       },
       "model": "minecraft:block/cocina_parrilla"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3028
+      },
+      "model": "minecraft:block/till"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3029
+      },
+      "model": "minecraft:item/coin"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3030
+      },
+      "model": "minecraft:item/coin_token"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3031
+      },
+      "model": "minecraft:item/silver"
     }
   ]
 }

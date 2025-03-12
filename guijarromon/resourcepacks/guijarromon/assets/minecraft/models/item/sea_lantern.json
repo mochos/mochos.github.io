@@ -12,6 +12,18 @@
         "custom_model_data": 101
       },
       "model": "minecraft:block/burger_sign"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 102
+      },
+      "model": "minecraft:block/ceiling_fan"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 103
+      },
+      "model": "minecraft:block/burger_sign_2"
     }
   ]
 }

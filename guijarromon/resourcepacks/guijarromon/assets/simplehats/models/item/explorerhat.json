@@ -92,6 +92,8 @@
   {"predicate": {"custom_model_data":114}, "model": "simplehats:block/police_cap_siren"},
   {"predicate": {"custom_model_data":115}, "model": "simplehats:block/scavenger_crown"},
   {"predicate": {"custom_model_data":116}, "model": "simplehats:block/mascara_nuclear"},
+  {"predicate": {"custom_model_data":117}, "model": "simplehats:block/chefs_hat"},
+  {"predicate": {"custom_model_data":118}, "model": "simplehats:block/chefs_hat_rat"},
   {"predicate": {"custom_model_data":2000}, "model": "simplehats:block/custom/redhat"},
   {"predicate": {"custom_model_data":2001}, "model": "simplehats:block/custom/leafhat"},
   {"predicate": {"custom_model_data":2002}, "model": "simplehats:block/custom/goldhat"},

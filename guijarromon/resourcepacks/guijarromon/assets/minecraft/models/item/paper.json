@@ -222,9 +222,63 @@
     },
     {
       "predicate": {
+        "custom_model_data": 3006
+      },
+      "model": "minecraft:block/crate_machine_legacy"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3007
+      },
+      "model": "minecraft:block/crate_machine_seasonal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3008
+      },
+      "model": "minecraft:block/giant_burger_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3009
+      },
+      "model": "minecraft:block/menu_sign"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3010
+      },
+      "model": "minecraft:block/ceiling_fan"
+    },
+    {
+      "predicate": {
         "custom_model_data": 3011
       },
       "model": "minecraft:block/maquina_batidos_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3012
+      },
+      "model": "minecraft:block/slush_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3013
+      },
+      "model": "minecraft:block/slush_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3014
+      },
+      "model": "minecraft:block/slush_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3015
+      },
+      "model": "minecraft:block/slush_4"
     }
   ]
 }
