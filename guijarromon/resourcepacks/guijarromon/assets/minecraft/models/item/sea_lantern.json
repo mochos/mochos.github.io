@@ -24,6 +24,18 @@
         "custom_model_data": 103
       },
       "model": "minecraft:block/burger_sign_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 104
+      },
+      "model": "minecraft:block/petit_cafe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 105
+      },
+      "model": "minecraft:block/petit_cafe_luz"
     }
   ]
 }

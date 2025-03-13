@@ -153,6 +153,18 @@
         "custom_model_data": 3031
       },
       "model": "minecraft:item/silver"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3032
+      },
+      "model": "minecraft:block/petit_cafe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3033
+      },
+      "model": "minecraft:block/petit_cafe_hierro"
     }
   ]
 }
