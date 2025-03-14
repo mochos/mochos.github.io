@@ -165,6 +165,12 @@
         "custom_model_data": 3033
       },
       "model": "minecraft:block/petit_cafe_hierro"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3034
+      },
+      "model": "minecraft:block/cocina_parrilla_carnes"
     }
   ]
 }

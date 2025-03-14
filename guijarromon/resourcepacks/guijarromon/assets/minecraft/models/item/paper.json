@@ -279,6 +279,24 @@
         "custom_model_data": 3015
       },
       "model": "minecraft:block/slush_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3016
+      },
+      "model": "minecraft:block/microphone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3017
+      },
+      "model": "minecraft:block/microphone_with_boom_stand"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3018
+      },
+      "model": "minecraft:block/stack_bandejas"
     }
   ]
 }
