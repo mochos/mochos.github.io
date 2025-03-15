@@ -36,6 +36,12 @@
         "custom_model_data": 105
       },
       "model": "minecraft:block/petit_cafe_luz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 106
+      },
+      "model": "minecraft:block/ceiling_fan2"
     }
   ]
 }

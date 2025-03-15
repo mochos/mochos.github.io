@@ -297,6 +297,24 @@
         "custom_model_data": 3018
       },
       "model": "minecraft:block/stack_bandejas"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3019
+      },
+      "model": "minecraft:block/slush_mesa1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3020
+      },
+      "model": "minecraft:block/slush_mesa2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3021
+      },
+      "model": "minecraft:block/ceiling_fan1"
     }
   ]
 }

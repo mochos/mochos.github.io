@@ -95,6 +95,8 @@
   {"predicate": {"custom_model_data":117}, "model": "simplehats:block/chefs_hat"},
   {"predicate": {"custom_model_data":118}, "model": "simplehats:block/chefs_hat_rat"},
   {"predicate": {"custom_model_data":119}, "model": "simplehats:block/petit_orejitas"},
+  {"predicate": {"custom_model_data":120}, "model": "simplehats:block/hard_hat_arquitecto"},
+  {"predicate": {"custom_model_data":121}, "model": "simplehats:block/hard_hat_operario"},
   {"predicate": {"custom_model_data":2000}, "model": "simplehats:block/custom/redhat"},
   {"predicate": {"custom_model_data":2001}, "model": "simplehats:block/custom/leafhat"},
   {"predicate": {"custom_model_data":2002}, "model": "simplehats:block/custom/goldhat"},
