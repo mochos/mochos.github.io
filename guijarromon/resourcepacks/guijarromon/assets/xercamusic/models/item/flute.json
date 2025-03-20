@@ -1,0 +1,10 @@
+{
+  "parent": "xercamusic:item/instrument",
+    "textures": {
+        "layer0": "xercamusic:item/instruments/flute"
+    },
+  "overrides": [
+    {"predicate": {"custom_model_data": 100}, "model": "xercamusic:item/pokarina_1"},
+    {"predicate": {"custom_model_data": 101}, "model": "xercamusic:item/pokarina_2"}
+  ]
+}
