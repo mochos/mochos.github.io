@@ -30,6 +30,8 @@
     {"predicate": {"custom_model_data": 124}, "model": "minecraft:block/bank_camera"},
     {"predicate": {"custom_model_data": 125}, "model": "minecraft:block/bank_computer"},
     {"predicate": {"custom_model_data": 126}, "model": "minecraft:block/vending_machine"},
+    {"predicate": {"custom_model_data": 127}, "model": "minecraft:item/buscapelea"},
+    {"predicate": {"custom_model_data": 128}, "model": "minecraft:item/buscapelea_lider"},
     {"predicate": {"custom_model_data": 1005}, "model": "minecraft:item/ficha_5"},
     {"predicate": {"custom_model_data": 1020}, "model": "minecraft:item/ficha_20"},
     {"predicate": {"custom_model_data": 1100}, "model": "minecraft:item/ficha_100"},
