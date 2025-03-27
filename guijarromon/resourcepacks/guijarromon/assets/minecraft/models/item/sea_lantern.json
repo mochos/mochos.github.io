@@ -42,6 +42,18 @@
         "custom_model_data": 106
       },
       "model": "minecraft:block/ceiling_fan2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 107
+      },
+      "model": "minecraft:block/burger_jigglybun"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 108
+      },
+      "model": "minecraft:block/burger_jigglybun_2"
     }
   ]
 }
