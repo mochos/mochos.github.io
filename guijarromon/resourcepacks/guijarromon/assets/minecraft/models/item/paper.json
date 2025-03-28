@@ -59,6 +59,7 @@
     {"predicate": {"custom_model_data": 3020}, "model": "minecraft:block/slush_mesa2"},
     {"predicate": {"custom_model_data": 3021}, "model": "minecraft:block/ceiling_fan1"},
     {"predicate": {"custom_model_data": 3022}, "model": "minecraft:block/jigglypuff_cosmetico"},
+    {"predicate": {"custom_model_data": 3023}, "model": "minecraft:block/jigglypuff_cosmetico_2"},
     {"predicate": {"custom_model_data": 4001}, "model": "minecraft:block/fiesta/fiesta_confetti"},
     {"predicate": {"custom_model_data": 4002}, "model": "minecraft:block/fiesta/fiesta_globo_amarillo"},
     {"predicate": {"custom_model_data": 4003}, "model": "minecraft:block/fiesta/fiesta_globo_azul"},
