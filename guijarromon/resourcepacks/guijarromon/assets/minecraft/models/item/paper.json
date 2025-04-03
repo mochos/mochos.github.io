@@ -65,6 +65,7 @@
     {"predicate": {"custom_model_data": 4003}, "model": "minecraft:block/fiesta/fiesta_globo_azul"},
     {"predicate": {"custom_model_data": 4004}, "model": "minecraft:block/fiesta/fiesta_globo_rojo"},
     {"predicate": {"custom_model_data": 4005}, "model": "minecraft:block/fiesta/fiesta_globo_verde"},
-    {"predicate": {"custom_model_data": 4006}, "model": "minecraft:block/fiesta/fiesta_letrero"}
+    {"predicate": {"custom_model_data": 4006}, "model": "minecraft:block/fiesta/fiesta_letrero"},
+    {"predicate": {"custom_model_data": 5000}, "model": "minecraft:block/togekiss_muerto"}
   ]
 }
