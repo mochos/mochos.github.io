@@ -1,9 +1,8 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "item/potion_overlay",
-        "layer1": "item/potion"
-    },
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "cobblefoods:item/juice/bluk_berry_juice"
+  },
   "overrides": [
     {"predicate": {"custom_model_data": 100},"model": "minecraft:item/aguardiente"},
     {"predicate": {"custom_model_data": 101},"model": "minecraft:item/cerveza"},
