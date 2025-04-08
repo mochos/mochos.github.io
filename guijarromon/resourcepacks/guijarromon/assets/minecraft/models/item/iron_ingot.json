@@ -33,6 +33,15 @@
     {"predicate": {"custom_model_data": 3031},"model": "minecraft:item/silver"},
     {"predicate": {"custom_model_data": 3032},"model": "minecraft:block/petit_cafe"},
     {"predicate": {"custom_model_data": 3033},"model": "minecraft:block/petit_cafe_hierro"},
-    {"predicate": {"custom_model_data": 3034},"model": "minecraft:block/cocina_parrilla_carnes"}
+    {"predicate": {"custom_model_data": 3034},"model": "minecraft:block/cocina_parrilla_carnes"},
+    {"predicate": {"custom_model_data": 10101 },"model": "elitecreatures:lab_furniture_v1/fireextinguisher"},
+    {"predicate": {"custom_model_data": 10102 },"model": "elitecreatures:lab_furniture_v1/science_equipment_2"},
+    {"predicate": {"custom_model_data": 10103 },"model": "elitecreatures:lab_furniture_v1/science_equipment_3"},
+    {"predicate": {"custom_model_data": 10104 },"model": "elitecreatures:lab_furniture_v1/science_equipment_4"},
+    {"predicate": {"custom_model_data": 10105 },"model": "elitecreatures:lab_furniture_v1/science_equipment_5"},
+    {"predicate": {"custom_model_data": 10106 },"model": "elitecreatures:lab_furniture_v1/science_equipment_6"},
+    {"predicate": {"custom_model_data": 10107 },"model": "elitecreatures:lab_furniture_v1/science_equipment_7"},
+    {"predicate": {"custom_model_data": 10108 },"model": "elitecreatures:lab_furniture_v1/trolley"},
+    {"predicate": {"custom_model_data": 10109 },"model": "elitecreatures:lab_furniture_v1/whiteboard"}
   ]
 }
