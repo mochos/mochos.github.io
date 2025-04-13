@@ -1,0 +1,18 @@
+{
+	"lava_chicken_cooled":
+	{
+		"master": "",
+		"sounds":
+		[
+			{"name": "lavachicken:lava_chicken_cooled", "stream": true}
+		]
+	},
+	"lava_chicken_used":
+	{
+		"master": "",
+		"sounds":
+		[
+			{"name": "lavachicken:lava_chicken_used", "stream": true}
+		]
+	}
+}

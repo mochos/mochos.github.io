@@ -126,6 +126,7 @@
   {"predicate": {"custom_model_data":2024}, "model": "simplehats:block/eevee/leafeon_hat"},
   {"predicate": {"custom_model_data":2025}, "model": "simplehats:block/eevee/sylveon_hat"},
   {"predicate": {"custom_model_data":2026}, "model": "simplehats:block/eevee/umbreon_hat"},
-  {"predicate": {"custom_model_data":2027}, "model": "simplehats:block/eevee/vaporeon_hat"}
+  {"predicate": {"custom_model_data":2027}, "model": "simplehats:block/eevee/vaporeon_hat"},
+  {"predicate": {"custom_model_data":3000}, "model": "simplehats:block/chicken_hat"}
  ]
 }

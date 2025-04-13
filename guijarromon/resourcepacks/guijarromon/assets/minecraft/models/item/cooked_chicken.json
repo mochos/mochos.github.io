@@ -4,11 +4,7 @@
         "layer0": "item/cooked_chicken"
     },
     "overrides": [
-        {
-          "predicate": {
-            "custom_model_data": 100
-          },
-          "model": "minecraft:item/alita"
-        }
+        {"predicate": {"custom_model_data": 100},"model": "minecraft:item/alita"},
+        {"predicate": {"custom_model_data": 101},"model": "minecraft:item/lava_chicken"}
     ]
 }
