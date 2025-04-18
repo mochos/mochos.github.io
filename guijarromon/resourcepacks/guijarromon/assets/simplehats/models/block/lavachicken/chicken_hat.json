@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "simplehats:block/chicken_hat"
+		"0": "simplehats:block/lavachicken/chicken_hat"
 	},
 	"elements": [
 		{

@@ -127,6 +127,10 @@
   {"predicate": {"custom_model_data":2025}, "model": "simplehats:block/eevee/sylveon_hat"},
   {"predicate": {"custom_model_data":2026}, "model": "simplehats:block/eevee/umbreon_hat"},
   {"predicate": {"custom_model_data":2027}, "model": "simplehats:block/eevee/vaporeon_hat"},
-  {"predicate": {"custom_model_data":3000}, "model": "simplehats:block/chicken_hat"}
+  {"predicate": {"custom_model_data":3000}, "model": "simplehats:block/lavachicken/chicken_hat"},
+  {"predicate": {"custom_model_data":3001}, "model": "simplehats:block/lavachicken/arrow_hat"},
+  {"predicate": {"custom_model_data":3002}, "model": "simplehats:block/lavachicken/bucket_hat"},
+  {"predicate": {"custom_model_data":3003}, "model": "simplehats:block/lavachicken/piglin_head"},
+  {"predicate": {"custom_model_data":3004}, "model": "simplehats:block/lavachicken/villager_head"}
  ]
 }

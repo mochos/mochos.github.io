@@ -34,6 +34,7 @@
     {"predicate": {"custom_model_data": 3032},"model": "minecraft:block/petit_cafe"},
     {"predicate": {"custom_model_data": 3033},"model": "minecraft:block/petit_cafe_hierro"},
     {"predicate": {"custom_model_data": 3034},"model": "minecraft:block/cocina_parrilla_carnes"},
+    {"predicate": {"custom_model_data": 3035},"model": "minecraft:block/taco/taco_truck"},
     {"predicate": {"custom_model_data": 10101 },"model": "elitecreatures:lab_furniture_v1/fireextinguisher"},
     {"predicate": {"custom_model_data": 10102 },"model": "elitecreatures:lab_furniture_v1/science_equipment_2"},
     {"predicate": {"custom_model_data": 10103 },"model": "elitecreatures:lab_furniture_v1/science_equipment_3"},

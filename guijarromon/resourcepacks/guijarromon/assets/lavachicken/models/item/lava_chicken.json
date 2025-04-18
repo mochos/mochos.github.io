@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "item/lava_chicken"
+		"0": "lavachicken:item/lava_chicken"
 	},
 	"elements": [
 		{

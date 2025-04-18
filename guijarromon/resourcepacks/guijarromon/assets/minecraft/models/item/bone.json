@@ -11,6 +11,6 @@
         }
     },
   "overrides": [
-    {"predicate": {"custom_model_data": 100}, "model": "minecraft:item/wishbone"}
+    {"predicate": {"custom_model_data": 100}, "model": "lavachicken:item/wishbone"}
   ]
 }
