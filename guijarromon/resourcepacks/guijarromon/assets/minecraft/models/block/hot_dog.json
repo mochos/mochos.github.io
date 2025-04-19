@@ -1,7 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "block/hot_dog"
+		"1": "block/hot_dog",
+		"particle": "block/hot_dog"
 	},
 	"elements": [
 		{

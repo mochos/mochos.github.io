@@ -1,0 +1,10 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/stone_hoe"
+    },
+    "overrides": [
+    {"predicate": {"custom_model_data": 3000},"model": "lavachicken:item/potato_launcher"}
+
+    ]
+}
