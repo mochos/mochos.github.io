@@ -4,7 +4,7 @@
     "layer0": "minecraft:item/diamond"
   },
   "overrides": [
-    {"predicate": {"custom_model_data": 100},"model": "minecraft:item/blue_core"},
-    {"predicate": {"custom_model_data": 101},"model": "minecraft:item/blue_star_crystal"}
+    {"predicate": {"custom_model_data": 100},"model": "minecraft:item/gemas/llama_blanca"},
+    {"predicate": {"custom_model_data": 101},"model": "minecraft:item/gemas/fragmento_yang"}
   ]
 }
