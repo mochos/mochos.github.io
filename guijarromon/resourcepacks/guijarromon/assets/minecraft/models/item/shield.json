@@ -43,6 +43,7 @@
     },
     "overrides": [
         {"predicate": {"blocking": 1},"model": "item/shield_blocking"},
-        {"predicate": {"custom_model_data": 100},"model": "minecraft:item/honedge_escudo"}
+        {"predicate": {"custom_model_data": 100},"model": "minecraft:item/honedge_escudo"},
+        {"predicate": {"custom_model_data": 101},"model": "minecraft:item/aegislash_escudo"}
     ]
 }
