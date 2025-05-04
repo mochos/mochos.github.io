@@ -209,6 +209,13 @@
             "ascent": 9,
             "height": 9,
             "chars": ["\uE81E"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/tiktoker.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\uE81F"]
         }
     ]
 }

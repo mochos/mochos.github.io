@@ -1,7 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/huevo_togepi_listo"
+		"0": "block/huevo_togepi_listo",
+		"particle": "item/turtle_egg"
 	},
 	"elements": [
 		{
