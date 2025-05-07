@@ -105,12 +105,12 @@
 		},
 		"ground": {
 			"rotation": [0, 135, 0],
-			"translation": [0, 7.5, 0],
+			"translation": [0, 9.25, 0],
 			"scale": [0.6, 0.8, 0.6]
 		},
 		"gui": {
-			"rotation": [-74, 0, -17],
-			"translation": [-1.5, -1.5, 0]
+			"rotation": [-45, 0, -45],
+			"translation": [5, 3.5, 0]
 		},
 		"fixed": {
 			"rotation": [-90, 0, 90],

@@ -5,6 +5,9 @@
     },
     "overrides": [
     {"predicate": {"custom_model_data": 100},"model": "sables:item/vizla_apagado"},
+    {"predicate": {"custom_model_data": 101},"model": "sables:item/sable_azul_apagado"},
+    {"predicate": {"custom_model_data": 102},"model": "sables:item/sable_doble_azul_apagado"},
+    {"predicate": {"custom_model_data": 103},"model": "sables:item/sable_rojo_apagado"},
     {"predicate": {"custom_model_data": 200},"model": "minecraft:item/jeringa"},
     {"predicate": {"custom_model_data": 201},"model": "minecraft:item/jeringa_muestra"},
     {"predicate": {"custom_model_data": 3000},"model": "lavachicken:item/potato_launcher"},

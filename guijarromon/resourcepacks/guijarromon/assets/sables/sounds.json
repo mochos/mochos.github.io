@@ -25,5 +25,38 @@
 			{"name": "sables:hit3", "stream": true},
 			{"name": "sables:hit4", "stream": true}
 		]
+	},
+	"on":
+	{
+		"master": "",
+		"sounds":
+		[
+			{"name": "sables:on", "stream": true},
+			{"name": "sables:on2", "stream": true}
+		]
+	},
+	"off":
+	{
+		"master": "",
+		"sounds":
+		[
+			{"name": "sables:off", "stream": true}
+		]
+	},
+	"hum":
+	{
+		"master": "",
+		"sounds":
+		[
+			{"name": "sables:hum", "stream": true}
+		]
+	},
+	"use":
+	{
+		"master": "",
+		"sounds":
+		[
+			{"name": "sables:use", "stream": true}
+		]
 	}
 }

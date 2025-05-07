@@ -33,6 +33,7 @@
     {"predicate": {"custom_model_data": 127}, "model": "minecraft:item/buscapelea"},
     {"predicate": {"custom_model_data": 128}, "model": "minecraft:item/buscapelea_lider"},
     {"predicate": {"custom_model_data": 129}, "model": "minecraft:item/aurora_peluche_2"},
+    {"predicate": {"custom_model_data": 130}, "model": "minecraft:item/muestra"},
     {"predicate": {"custom_model_data": 1005}, "model": "minecraft:item/ficha_5"},
     {"predicate": {"custom_model_data": 1020}, "model": "minecraft:item/ficha_20"},
     {"predicate": {"custom_model_data": 1100}, "model": "minecraft:item/ficha_100"},
