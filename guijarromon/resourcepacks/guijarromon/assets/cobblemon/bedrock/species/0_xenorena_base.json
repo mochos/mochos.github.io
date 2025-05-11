@@ -1,0 +1,17 @@
+{
+	"species": "cobblemon:xenorena",
+	"order": 0,
+	"variations": [{
+			"aspects": [],
+			"poser": "cobblemon:xenorena",
+			"model": "cobblemon:xenorena.geo",
+			"texture": "cobblemon:textures/pokemon/xenorena/xenorena.png",
+			"layers": []
+		},
+		{
+			"aspects": ["shiny"],
+			"texture": "cobblemon:textures/pokemon/xenorena/xenorena_shiny.png"
+		}
+		
+	]
+}

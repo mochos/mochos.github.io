@@ -1,0 +1,60 @@
+{
+	"head": "Body6",
+	"portraitScale": 1,
+	"portraitTranslation": [0.2, 0, 0],
+	"profileScale": 1,
+	"profileTranslation": [0, 0, 0],
+	"faint": "bedrock(chestworm, faint)",
+	"poses": {
+		"frame": {
+			"poseName": "frame",
+			"transformTicks": 10,
+			"poseTypes": [
+				"PORTRAIT",
+				"PROFILE",
+				"NONE"
+			],
+			"animations": [
+				"bedrock(chestworm, summary_idle)"
+			]
+		},
+		"standing": {
+			"poseName": "standing",
+			"transformTicks": 10,
+			"poseTypes": ["STAND"],
+			"quirks": [{
+				"name": "bite",
+				"loopTimes": 1,
+				"minSecondsBetweenOccurrences": 8,
+				"maxSecondsBetweenOccurrences": 30,
+				"animations": [
+					"bedrock(chestworm, bite)"
+				]
+			}],
+			"animations": [
+				"look",
+				"bite",
+				"bedrock(chestworm, ground_idle)"
+			]
+		},
+		"walking": {
+			"poseName": "walking",
+			"transformTicks": 10,
+			"poseTypes": ["WALK"],
+			"animations": [
+				"look",
+				"bedrock(chestworm, ground_idle)",
+				"bedrock(chestworm, ground_walk)"
+			]
+		},
+		"sleeping": {
+			"poseName": "sleeping",
+			"transformTicks": 10,
+			"poseTypes": ["SLEEP"],
+			"animations": [
+				"look",
+				"bedrock(chestworm, sleep)"
+			]
+		}
+	}
+}

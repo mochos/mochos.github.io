@@ -1,0 +1,17 @@
+{
+	"species": "cobblemon:scorpeg",
+	"order": 0,
+	"variations": [{
+			"aspects": [],
+			"poser": "cobblemon:scorpeg",
+			"model": "cobblemon:scorpeg.geo",
+			"texture": "cobblemon:textures/pokemon/scorpeg/scorpeg.png",
+			"layers": []
+		},
+		{
+			"aspects": ["shiny"],
+			"texture": "cobblemon:textures/pokemon/scorpeg/scorpeg_shiny.png"
+		}
+		
+	]
+}

@@ -47,6 +47,18 @@
     "cobblemon.species.copptomaton.name":"Copptomaton",
     "cobblemon.species.copptomaton.desc1":"Copptomatons are strange pokemon that seem to have been initially constructed thousands of years ago by an unknown race. Occasionally, villagers will find copptomatons deep underground and bring them home to defend their villages.",
     "cobblemon.species.profector.name":"Profector",
-    "cobblemon.species.profector.desc1":"As copptomotons are damaged in battles, villagers will make repairs to it using iron, until it gets to the point where all the copper that once made up the copptomatons is replaced by iron."
+    "cobblemon.species.profector.desc1":"As copptomotons are damaged in battles, villagers will make repairs to it using iron, until it gets to the point where all the copper that once made up the copptomatons is replaced by iron.",
+    "cobblemon.species.metroid.name": "Metroid",
+    "cobblemon.species.metroid.desc1": "Parasitic, energy-siphoning lifeforms created by the Chozo. Bioengineered to combat the origanism native to SR388,the X parasites.",
+    "cobblemon.species.metroid.desc2": "A dangerous species known for draining the energy of its prey. This species tends to thrive in warmer climates.",
+    "cobblemon.species.xenorena.name": "Xenorena",
+    "cobblemon.species.xenorena.desc1": "Many researches show that Xenorena comes from another planet. It is also said to be viable everywhere.",
+    "cobblemon.species.xenorena.desc2": "It can survive anywhere. It is also said that Xenorena comes from space and is not from this world.",
+    "cobblemon.species.scorpeg.name": "Scorpeg",
+    "cobblemon.species.scorpeg.desc1": "Many researches show that Scorpeg comes from another planet. It is also said to be viable everywhere.",
+    "cobblemon.species.scorpeg.desc2": "It can survive anywhere. It is also said that Scorpeg comes from space and is not from this world.",
+    "cobblemon.species.chestworm.name": "Chestworm",
+    "cobblemon.species.chestworm.desc1": "Many researches show that Chestworm comes from another planet. It is also said to be viable everywhere.",
+    "cobblemon.species.chestworm.desc2": "It can survive anywhere. It is also said that Chestworm comes from space and is not from this world."
 }
   
