@@ -4,7 +4,7 @@
         "layer0": "block/redstone_torch"
     },
     "overrides": [
-    {"predicate": {"custom_model_data": 103},"model": "sables:item/sable_rojo"}
+    {"predicate": {"custom_model_data": 103},"model": "sables:item/sable_cruzado_rojo"}
 
     ]
 }

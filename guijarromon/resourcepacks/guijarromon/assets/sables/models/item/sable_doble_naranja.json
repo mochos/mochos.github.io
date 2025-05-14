@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "sables:item/sable_azul",
-		"3": "sables:item/sable_azul_rayos",
-		"particle": "sables:item/sable_azul"
+		"1": "sables:item/sable_naranja",
+		"3": "sables:item/sable_naranja_rayos",
+		"particle": "sables:item/sable_naranja"
 	},
 	"elements": [
 		{
