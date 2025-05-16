@@ -1,0 +1,19 @@
+
+{
+    "species": "cobblemon:grogu",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:grogu",
+        "model": "cobblemon:grogu.geo",
+        "texture": "cobblemon:textures/pokemon/grogu/grogu.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/grogu/grogu_shiny.png"
+      }
+    ]
+  }
+  
