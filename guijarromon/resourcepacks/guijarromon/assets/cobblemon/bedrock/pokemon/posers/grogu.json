@@ -19,25 +19,61 @@
         "animations": [
         "look",
         "bedrock(grogu, ground_idle)"
-        ]
+        ],
+       "quirks": [
+         {
+           "name": "blink",
+           "minSecondsBetweenOccurrences": 4,
+           "maxSecondsBetweenOccurrences": 10,
+           "animations": ["bedrock(grogu, blink)"]
+         }
+       ]
     },
     "walking": {
         "poseName": "walking",
         "transformTicks": 10,
         "poseTypes": [ "WALK" ],
-        "animations": [ "bedrock(grogu, ground_walk)" ]
+        "animations": [ "bedrock(grogu, ground_walk)" ],
+       "quirks": [
+         {
+           "name": "blink",
+           "minSecondsBetweenOccurrences": 4,
+           "maxSecondsBetweenOccurrences": 10,
+           "animations": ["bedrock(grogu, blink)"]
+         }
+       ]
     },
     "shoulder_left": {
         "poseName": "shoulder_left",
         "transformTicks": 10,
         "poseTypes": ["SHOULDER_LEFT"],
-        "animations":["bedrock(grogu, left_shoulder)"]
+        "animations":["bedrock(grogu, left_shoulder)",
+       "look"
+     ],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": [
+           "bedrock(grogu, blink)"
+         ]
+       }
+     ]
       },
       "shoulder_right": {
         "poseName": "shoulder_right",
         "transformTicks": 10,
         "poseTypes": ["SHOULDER_RIGHT"],
-        "animations":["bedrock(grogu, right_shoulder)"]
+        "animations":["bedrock(grogu, right_shoulder)",
+       "look"
+     ],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": [
+           "bedrock(grogu, blink)"
+         ]
+       }
+     ]
       }
   }
 }
