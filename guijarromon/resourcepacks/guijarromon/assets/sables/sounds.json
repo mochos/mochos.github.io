@@ -58,5 +58,13 @@
 		[
 			{"name": "sables:use", "stream": true}
 		]
+	},
+	"blaster_shoot":
+	{
+		"master": "",
+		"sounds":
+		[
+			{"name": "sables:blaster_shoot", "stream": true}
+		]
 	}
 }
