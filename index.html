@@ -1,45 +1,336 @@
-<!doctype html>
-<html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/png" href="/icons/favicon-light.png" media="(prefers-color-scheme: light)" />
-  <link rel="icon" type="image/png" href="/icons/favicon-dark.png" media="(prefers-color-scheme: dark)" />
-  <!-- TODO: Set the document title to the name of your application -->
-  <title>Mochos Studio</title>
-  <meta name="description"
-    content="Creamos servidores con mecánicas custom por pura diversión y para compartir experiencias únicas con nuestra comunidad." />
-  <meta name="author" content="lorspi" />
+    <meta charset="utf-8">
+    <title>Mochos Studio</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/mochos/mochos.github.io/refs/heads/main/_index/favicon-oscuro.png" media="(prefers-color-scheme: light)">
+    <link rel="icon" href="https://raw.githubusercontent.com/mochos/mochos.github.io/refs/heads/main/_index/favicon-claro.png" media="(prefers-color-scheme: dark)">
+    <!--<link href="img/57.png" rel="apple-touch-icon" />
+    <link href="img/76.png" rel="apple-touch-icon" sizes="76x76" />
+    <link href="img/120.png" rel="apple-touch-icon" sizes="120x120" />
+    <link href="img/152.png" rel="apple-touch-icon" sizes="152x152" />
+    <link href="img/180.png" rel="apple-touch-icon" sizes="180x180" />
+    <link href="img/192.png" rel="icon" sizes="192x192" />
+    <link href="img/128.png" rel="icon" sizes="128x128" />-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://mochos.xyz/" />
-  <meta property="og:site_name" content="Mochos Studio" />
-  <meta property="og:title" content="Mochos Studio" />
-  <meta property="og:description"
-    content="Creamos servidores con mecánicas custom por pura diversión y para compartir experiencias únicas con nuestra comunidad." />
-  <meta property="og:image"
-    content="https://raw.githubusercontent.com/mochos/mochos.github.io/refs/heads/main/og-image.png" />
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:url" content="https://mochos.xyz/" />
-  <meta name="twitter:title" content="Mochos Studio" />
-  <meta name="twitter:description"
-    content="Creamos servidores con mecánicas custom por pura diversión y para compartir experiencias únicas con nuestra comunidad." />
-  <meta name="twitter:image"
-    content="https://raw.githubusercontent.com/mochos/mochos.github.io/refs/heads/main/og-image.png" />
-  <script type="module" crossorigin src="/assets/index-C6uDZR7I.js"></script>
-  <link rel="modulepreload" crossorigin href="/assets/markdown-DN_Y-0iN.js">
-  <link rel="modulepreload" crossorigin href="/assets/radix-B_tuMCTm.js">
-  <link rel="modulepreload" crossorigin href="/assets/vendor-D2LZI0r9.js">
-  <link rel="modulepreload" crossorigin href="/assets/lucide-CEuImo-d.js">
-  <link rel="stylesheet" crossorigin href="/assets/index-DPYMmQmk.css">
 </head>
 
-<body>
-  <div id="root"></div>
-</body>
+<body class="aurora">
+    <div class="container">
+        <img src="https://raw.githubusercontent.com/mochos/mochos.github.io/main/_index/mochos.svg" width="500px" style="margin: 64px; max-width: 80%;">
+        <br>
+        <div class="buttons">
+          <button class="pulse" onclick="window.location.href='https://discord.mochos.xyz';">Discord</button>
+          <button class="pulse" onclick="window.location.href='https://wiki.mochos.xyz/';">Wiki</button>
+        </div>
+      </div>
+  </body>
 
-</html>
+
+
+<style>
+
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* STYLES (optional) */
+.container {
+}
+
+/* FLEXBOX ABSOLUTE CENTER */
+html,
+body {
+  height: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+img {max-width: 70%; max-height: 70%;}
+
+.aurora {
+  background: #000;
+  position: relative;
+}
+.aurora:before,
+.aurora:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border-radius: 100%;
+  opacity: 0.18;
+}
+.aurora:before {
+  box-shadow: 0 0 35vmax 35vmax #f00;
+  animation: hue 5s 0s linear infinite, move1 10s 0s linear infinite;
+}
+.aurora:after {
+  box-shadow: 0 0 35vmax 35vmax #0ff;
+  animation: hue 10s 0s linear infinite, move2 20s 0s linear infinite;
+}
+@-moz-keyframes hue {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+@-webkit-keyframes hue {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+@-o-keyframes hue {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+@keyframes hue {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+@-moz-keyframes move1 {
+  0% {
+    top: 0vh;
+    left: 50vw;
+  }
+  25% {
+    left: 0vw;
+  }
+  50% {
+    top: 100vh;
+  }
+  75% {
+    left: 100vw;
+  }
+  100% {
+    top: 0vh;
+    left: 50vw;
+  }
+}
+@-webkit-keyframes move1 {
+  0% {
+    top: 0vh;
+    left: 50vw;
+  }
+  25% {
+    left: 0vw;
+  }
+  50% {
+    top: 100vh;
+  }
+  75% {
+    left: 100vw;
+  }
+  100% {
+    top: 0vh;
+    left: 50vw;
+  }
+}
+@-o-keyframes move1 {
+  0% {
+    top: 0vh;
+    left: 50vw;
+  }
+  25% {
+    left: 0vw;
+  }
+  50% {
+    top: 100vh;
+  }
+  75% {
+    left: 100vw;
+  }
+  100% {
+    top: 0vh;
+    left: 50vw;
+  }
+}
+@keyframes move1 {
+  0% {
+    top: 0vh;
+    left: 50vw;
+  }
+  25% {
+    left: 0vw;
+  }
+  50% {
+    top: 100vh;
+  }
+  75% {
+    left: 100vw;
+  }
+  100% {
+    top: 0vh;
+    left: 50vw;
+  }
+}
+@-moz-keyframes move2 {
+  0% {
+    top: 50vh;
+    left: 100vw;
+  }
+  25% {
+    top: 100vh;
+  }
+  50% {
+    left: 0vw;
+  }
+  75% {
+    top: 0vh;
+  }
+  100% {
+    top: 50vh;
+    left: 100vw;
+  }
+}
+@-webkit-keyframes move2 {
+  0% {
+    top: 50vh;
+    left: 100vw;
+  }
+  25% {
+    top: 100vh;
+  }
+  50% {
+    left: 0vw;
+  }
+  75% {
+    top: 0vh;
+  }
+  100% {
+    top: 50vh;
+    left: 100vw;
+  }
+}
+@-o-keyframes move2 {
+  0% {
+    top: 50vh;
+    left: 100vw;
+  }
+  25% {
+    top: 100vh;
+  }
+  50% {
+    left: 0vw;
+  }
+  75% {
+    top: 0vh;
+  }
+  100% {
+    top: 50vh;
+    left: 100vw;
+  }
+}
+@keyframes move2 {
+  0% {
+    top: 50vh;
+    left: 100vw;
+  }
+  25% {
+    top: 100vh;
+  }
+  50% {
+    left: 0vw;
+  }
+  75% {
+    top: 0vh;
+  }
+  100% {
+    top: 50vh;
+    left: 100vw;
+  }
+}
+
+/* ESTILOS BOTONES */
+.pulse:hover,
+.pulse:focus {
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+.fill {
+  --color: #a972cb;
+  --hover: #cb72aa;
+}
+
+.pulse {
+  --color: #ef6eae;
+  --hover: #ef8f6e;
+}
+
+button {
+  color: var(--color);
+  transition: 0.25s;
+
+}
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+body {
+  background: #17181c;
+  font: 300 1em "Fira Sans", sans-serif;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+</style>
+
+<script>
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+        document.querySelector('link[media="(prefers-color-scheme: light)"]').rel = 'icon';
+        document.querySelector('link[media="(prefers-color-scheme: dark)"]').rel = 'alternate icon';
+    } else {
+        document.querySelector('link[media="(prefers-color-scheme: light)"]').rel = 'alternate icon';
+        document.querySelector('link[media="(prefers-color-scheme: dark)"]').rel = 'icon';
+    }
+</script>
